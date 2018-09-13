@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lem_in"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ablizniu/Documents/Lem-in/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ablizniu/Documents/Lem-in/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ablizniu/Documents/Lem-in/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lem_in">
+				<Option output="/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Lem_in" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ablizniu/Documents/Lem-in/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lem_in"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lem_in/fast">
+				<Option output="/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Lem_in" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ablizniu/Documents/Lem-in/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lem_in/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft">
+				<Option output="/Users/ablizniu/Documents/Lem-in/cmake-build-debug/libft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ablizniu/Documents/Lem-in/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft/fast">
+				<Option output="/Users/ablizniu/Documents/Lem-in/cmake-build-debug/libft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ablizniu/Documents/Lem-in/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ablizniu/Documents/Lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem-in_linker.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_algo.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_int_wave.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_alist_initialize.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_atoi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_bchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_bzero.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_doop.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_exponentiation.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_isalnum.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_isalpha.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_isascii.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_isdigit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_isprint.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_itoa.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_itoa_base_printf.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_itoa_base_printf_u.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_len_swap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_lstadd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_lstdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_lstdelone.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_lstiter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_lstmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_lstnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memalloc.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memccpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memcpy_end.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memjn.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memjoin.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memmove.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memset.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_neo_its_matrix.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf_core.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf_core_2.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf_d.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putchar.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putchar_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putendl.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putendl_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putnbr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putnbr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putstr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_realloc.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_smt.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strclr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strdup.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_striter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_striteri.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strjoin.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strlcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strlen.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strmapi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strncat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strncmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strncpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strnequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strnlen.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strnstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strrchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strsplit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strsub.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strtrim.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_swap_char.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_swap_int.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_tolower.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_toupper.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/get_next_line.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/specificators.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/main.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
