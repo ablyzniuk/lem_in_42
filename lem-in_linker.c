@@ -27,6 +27,7 @@ void linker(t_room **room, char **line)
 	while (ft_strcmp(link->name,buff[1]) != 0)
 		link = link->next;
 	create_links(tmp,link,buff,room);
+	delete_buff(buff,2);
 }
 
 void checker_links(t_room **room, char **buff)
@@ -70,12 +71,14 @@ t_room *search_link(t_room **room, char *name)
 void create_links(t_room *link1, t_room *link2, char **buff, t_room **room)
 {
 	int i;
+	int len;
 
 	i = 0;
+	len = len_list(room);
 	if (link1->link == NULL)
-		link1->link = (t_room *)ft_memalloc(sizeof(t_room) * len_list(room));
+		link1->link = (t_room *)ft_memalloc(sizeof(t_room) * len);
 	if (link2->link == NULL)
-		link2->link = (t_room *)ft_memalloc(sizeof(t_room) * len_list(room));
+		link2->link = (t_room *)ft_memalloc(sizeof(t_room) * len);
 	while (link1->link[i].name != NULL)
 		i++;
 	link1->link[i] = *search_link(room,buff[1]);

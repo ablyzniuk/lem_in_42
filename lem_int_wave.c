@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "lem_in.h"
 
 void start_(t_room **room)
@@ -21,7 +20,7 @@ void start_(t_room **room)
 
 	tmp = (*room);
 	que = NULL;
-	error_no_conditons_for_algo(*room);
+	semi_condition(*room);
 	while (tmp->start_end != START)
 		tmp = tmp->next;
 	making_the_que(tmp,&que,NULL, 0);
@@ -41,12 +40,34 @@ void start_(t_room **room)
 	free_que(&que);
 }
 
+void semi_condition(t_room *room)
+{
+	t_room *tmp;
+	int s;
+
+	s = 0;
+	tmp = room;
+	while (tmp)
+	{
+		if (tmp->start_end == 1)
+			s++;
+		tmp = tmp->next;
+	}
+	if (s == 0 || s > 1)
+	{
+		ft_putstr("Error, no ##START conditions. Program terminated\n");
+		exit(0);
+	}
+}
+
 void walking_on_links(t_room **tmp, t_room **que, t_room **room)
 {
 	int i;
 	t_room *buff;
 
 	i = 0;
+	if (!(*tmp)->link)
+		return ;
 	while ((*tmp)->link[i].name != NULL)
 	{
 		buff = que_search(room, (*tmp)->link[i].name);
@@ -65,16 +86,16 @@ void indexing_main_list_by_distance(t_room **room, t_room **que)
 	t_room *tmp_room;
 	t_room *tmp_que;
 
-	tmp_room = (*room);
-	while (tmp_room)
+	tmp_que = (*que);
+	while (tmp_que)
 	{
-		tmp_que = (*que);
+		tmp_room = (*room);
 		while (ft_strcmp(tmp_room->name,tmp_que->name) != 0)
-			tmp_que = tmp_que->next;
+			tmp_room = tmp_room->next;
 		tmp_room->distance_from_start = tmp_que->distance_from_start;
 		tmp_room->status = 0;
 		tmp_room->parent_link = tmp_que->parent_link;
-		tmp_room = tmp_room->next;
+		tmp_que = tmp_que->next;
 	}
 }
 
@@ -166,9 +187,10 @@ void making_the_que(t_room *room, t_room **que, t_room *parent_link, int len)
 	}
 }
 
-void making_final_results(t_room *start, t_result **result, int len)// это годиться для хранения всех вариантов в конце
+void making_final_results(t_room *start, t_result **result, int len)
 {
 	t_result *tmp;
+	t_result *prev;
 
 	if ((*result) == NULL)
 	{
@@ -181,8 +203,10 @@ void making_final_results(t_room *start, t_result **result, int len)// это г
 		tmp = (*result);
 		while (tmp->next != NULL)
 			tmp = tmp->next;
+		prev = tmp;
 		tmp->next = (t_result *)ft_memalloc(sizeof(t_result));
 		tmp = tmp->next;
+		tmp->prev = prev;
 		tmp->link_arr = start;
 		tmp->len_of_the_way = len;
 	}

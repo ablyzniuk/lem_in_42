@@ -17,8 +17,6 @@ libft/libft.h
 /Users/ablizniu/Documents/Lem-in/lem_in_algo.c
 lem_in.h
 /Users/ablizniu/Documents/Lem-in/lem_in.h
-stdio.h
--
 
 /Users/ablizniu/Documents/Lem-in/lem_int_wave.c
 lem_in.h
@@ -49,6 +47,4 @@ errno.h
 /Users/ablizniu/Documents/Lem-in/main.c
 lem_in.h
 /Users/ablizniu/Documents/Lem-in/lem_in.h
-stdio.h
--
 

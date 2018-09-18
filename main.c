@@ -11,17 +11,17 @@
 /* ************************************************************************** */
 
 #include "lem_in.h"
-#include <stdio.h>
 
 int main(int argc, char **argv)
 {
 	t_room *room;
 
 	room = NULL;
-	fd = open(argv[1],O_RDONLY);
+	g_fd = open(argv[1],O_RDONLY);
+	if (ft_strcmp(argv[1],"w") == 0)
+		g_key = 1;
 	read_and_valid(&room);
 	distribution_of_ants(&room);
-	//search_the_way(&room);
 	return 0;
 }
 
@@ -30,10 +30,19 @@ void read_and_valid(t_room **room)
 	char *line;
 
 	line = NULL;
-	if (get_next_line(fd, &line) > 0 && g_ants == 0)
+	if (get_next_line(g_fd, &line) > 0 && g_ants == 0)
+	{
+		ft_putstr(line);
+		ft_putchar('\n');
 		ants(&line);
-	while (get_next_line(fd,&line))
-		checker_room(&line,room);
+	}
+	while (get_next_line(g_fd,&line))
+	{
+		ft_putstr(line);
+		ft_putchar('\n');
+		checker_room(&line, room);
+	}
+	ft_putchar('\n');
 	start_(room);
 }
 
@@ -102,7 +111,6 @@ int s_e_choose(void)
 	return (i);
 }
 
-
 int checker_room(char **line, t_room **room)
 {
 	char	**buff;
@@ -114,18 +122,28 @@ int checker_room(char **line, t_room **room)
 	{
 		linker(room, line);
 		ft_strdel(line);
+		delete_buff(buff,2);
 		return (1);
 	}
 	room_validator(buff);
 	room_coords_validator(room,buff);
 	working_with_room(buff,room,s_e_choose());
-	while (*buff != NULL)
-	{
-		ft_strdel(buff);
-		buff++;
-	}
+	delete_buff(buff,3);
 	ft_strdel(line);
 	return (0);
+}
+
+void delete_buff(char **buff, int len)
+{
+	int i;
+
+	i = 0;
+	while (i < len)
+	{
+		ft_strdel(&buff[i]);
+		i++;
+	}
+	free(buff);
 }
 
 void working_with_room(char **buff, t_room **room, int s_e)
@@ -168,6 +186,7 @@ void room_validator(char **buff)
 		if (!ft_isdigit(buff[1][i]))
 		{
 			ft_putstr("Error, bad coordinates x\n");
+			system("leaks a.out");
 			exit(0);
 		}
 		i++;
@@ -178,6 +197,7 @@ void room_validator(char **buff)
 		if (!ft_isdigit(buff[2][i]))
 		{
 			ft_putstr("Error, bad coordinates y\n");
+			system("leaks a.out");
 			exit(0);
 		}
 		i++;
@@ -194,6 +214,7 @@ void count_quant_coords(char **buff)
 	if (i != 3)
 	{
 		ft_putstr("Error, room manage failed\n");
+		system("leaks a.out");
 		exit(0);
 	}
 }
@@ -208,6 +229,7 @@ void room_coords_validator(t_room **room, char **buff)
 		if (tmp->coord_x == ft_atoi(buff[1]) && tmp->coord_y == ft_atoi(buff[2]))
 		{
 			ft_putstr("Error, invalid room coordinates, program terminated.\n");
+			system("leaks a.out");
 			exit(0);
 		}
 		tmp = tmp->next;

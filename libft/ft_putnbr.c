@@ -18,4 +18,5 @@ void	ft_putnbr(int n)
 
 	str = ft_itoa(n);
 	ft_putstr(str);
+	ft_strdel(&str);
 }

@@ -19,7 +19,8 @@
 
 int					g_start_or_end;
 unsigned int		g_ants;
-int					fd;
+int					g_fd;
+int 				g_key;
 
 typedef struct		s_room
 {
@@ -29,7 +30,8 @@ typedef struct		s_room
 	int				distance_from_start;
 	char			*name;
 	int				status;
-	int 			on_off;
+	int 			what_ant;
+	int 			output;
 	struct s_room	*parent_link;
 	struct s_room	*link;
 	struct s_room	*prev;
@@ -40,11 +42,26 @@ typedef struct	s_result
 {
 	struct		s_room *link_arr;
 	int			len_of_the_way;
+	struct		s_result *prev;
 	struct		s_result *next;
 }				t_result;
 
+void	semi_condition(t_room *room);
+int		len_list(t_room **room);
+void	delete_buff(char **buff, int len);
+void	free_room(t_room **room);
+void	free_ways(t_result **result);
+void	bzero_output(t_result **result);
+t_room	*rotate_to_end(t_room *room);
+void	all_push(t_result **result);
+int		not_outputed(t_result **result);
+void	output(t_result **result);
+int		is_ant(t_result *result);
+void	push_ants(t_room *room);
+int		ants_distrib(t_room **room, int *ant);
+void	zero_status(t_result **resulted_ways);
+void	que_for_output(t_room elem);
 t_room	*is_way(t_room **room);
-void	sort_for_distribution(t_result **resulted_ways);
 void	distribution(t_room **room, t_result **resulted_ways);
 void 	distribution_of_ants(t_room **room);
 void	making_final_results(t_room *start, t_result **result, int len);

@@ -42,8 +42,8 @@ static char	*cut_dilims(const char *s, size_t *k, char c)
 {
 	size_t	i;
 	char	*str;
+	char	*buff;
 
-	i = 0;
 	str = (char *)s;
 	while (str[*k] == c)
 		*k += 1;
@@ -54,7 +54,8 @@ static char	*cut_dilims(const char *s, size_t *k, char c)
 			break ;
 		*k += 1;
 	}
-	return (ft_strsub(str, (unsigned int)i, *k - i));
+	buff = ft_strsub(str, (unsigned int)i, *k - i);
+	return (buff);
 }
 
 char		**ft_strsplit(const char *s, char c)
@@ -62,19 +63,20 @@ char		**ft_strsplit(const char *s, char c)
 	int		i;
 	size_t	k;
 	int		n;
-	char	*str;
+	char	*buff;
 	char	**str_s;
 
 	i = 0;
 	k = 0;
 	n = word_count(s, c);
-	str = (char *)s;
-	str_s = (char **)ft_memalloc(sizeof(char *) * (n + 1));
+	str_s = (char **)malloc(sizeof(char *) * (n + 1));
 	if (str_s == NULL)
 		return (NULL);
 	while (i < n)
 	{
-		str_s[i] = cut_dilims(str, &k, c);
+		buff = cut_dilims((char *)s, &k, c);
+		str_s[i] = ft_strdup(buff);
+		ft_strdel(&buff);
 		i++;
 	}
 	str_s[i] = NULL;

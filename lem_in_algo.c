@@ -11,12 +11,10 @@
 /* ************************************************************************** */
 
 #include "lem_in.h"
-#include <stdio.h>
 
 void search_the_way(t_room **room, t_room **way)
 {
 	t_room *tmp;
-	t_room *buff;
 
 	tmp = (*room);
 	while (tmp->start_end != END)
@@ -96,6 +94,7 @@ void add_to_the_way(t_room **room, t_room *tmp, t_room **way)
 {
 	t_room *temp;
 	t_room *buff;
+	t_room *prev;
 
 	buff = que_search(room,tmp->name);
 	if ((*way) == NULL)
@@ -110,8 +109,10 @@ void add_to_the_way(t_room **room, t_room *tmp, t_room **way)
 		temp = (*way);
 		while (temp->next != NULL)
 			temp = temp->next;
+		prev = temp;
 		temp->next = (t_room *)ft_memalloc(sizeof(t_room));
 		temp = temp->next;
+		temp->prev = prev;
 		temp->status = buff->status;
 		temp->start_end = buff->start_end;
 		temp->name = ft_strdup(buff->name);
@@ -137,11 +138,37 @@ void processing_of_the_ways(t_room **room, t_result **result)
 
 }
 
+void swap_list_elem(t_room *room, int len)
+{
+	t_room *tmp_1;
+	t_room *tmp_2;
+	char *buff;
+	int start_end;
+
+	tmp_1 = room;
+	while (tmp_1->next != NULL)
+		tmp_1 = tmp_1->next;
+	tmp_2 = tmp_1;
+	tmp_1 = room;
+	len -= 2;
+	while (len != 0)
+	{
+		buff = tmp_1->name;
+		start_end = tmp_1->start_end;
+		tmp_1->name = tmp_2->name;
+		tmp_1->start_end = tmp_2->start_end;
+		tmp_2->name = buff;
+		tmp_2->start_end = start_end;
+		tmp_1 = tmp_1->next;
+		tmp_2 = tmp_2->prev;
+		len--;
+	}
+}
+
 void  distribution_of_ants(t_room **room)
 {
 	t_room		*tmp;
 	t_result	*resulted_ways;
-	t_room		*buff;
 	int i;
 
 	i = 0;
@@ -157,80 +184,261 @@ void  distribution_of_ants(t_room **room)
 	distribution(room,&resulted_ways);
 }
 
-/* ------------------------------------------------------------------------*/
-//		15 ants, len rooms - 4. 6. 8.									   //
-//		пускаем первого по мин пути тобишь на 4 -- количество уже 14	   //
-//		14 - 4 >= (путь куда сейчас будем пускать) - 6 - (мин путь) 4	   //
-//		(если уравнение сбывается то пускаем на 6) тобишь минус 1 муравей  //
-//		13 - 4 >= 8 - 4	тут пускаем на 8								   //
-// 		и так далее														   //
-/*-------------------------------------------------------------------------*/
+void reverse_list(t_result **result)
+{
+	t_result *tmp;
 
+	tmp = (*result);
+	while (tmp)
+	{
+		error_no_conditons_for_algo(tmp->link_arr);
+		swap_list_elem(tmp->link_arr,tmp->len_of_the_way);
+		tmp = tmp->next;
+	}
+
+}
 
 void distribution(t_room **room, t_result **resulted_ways)
 {
 	int min_len;
 	t_result *tmp;
-	//sort_for_distribution(resulted_ways);
+	int n;
 
+	n = 0;
 	min_len = (*resulted_ways)->len_of_the_way;
 	tmp = (*resulted_ways);
+	zero_status(resulted_ways);
+	reverse_list(resulted_ways);
+	ants_distrib(&(*resulted_ways)->link_arr,&n);
+	while (is_ant(*resulted_ways))
+	{
+		while (tmp)
+		{
+			if (g_ants - min_len >= tmp->len_of_the_way - min_len)
+				ants_distrib(&tmp->link_arr, &n);
+			tmp = tmp->next;
+		}
+		while (not_outputed(resulted_ways))
+			output(resulted_ways);
+		bzero_output(resulted_ways);
+		all_push(resulted_ways);
+		if (!tmp)
+		{
+			tmp = (*resulted_ways);
+			ft_putchar('\n');
+			continue ;
+		}
+	}
+	free_room(room);
+	free_ways(resulted_ways);
+}
+
+void free_ways(t_result **result)
+{
+	t_result *buff;
+
+	while (*result)
+	{
+		buff = (*result);
+		free_room(&buff->link_arr);
+		(*result) = (*result)->next;
+		ft_memdel((void *)&buff);
+	}
+	ft_memdel((void **)result);
+}
+
+
+void free_room(t_room **room)
+{
+	t_room *buff;
+
+	while (*room)
+	{
+		buff = (*room);
+		(*room) = (*room)->next;
+		ft_strdel(&buff->name);
+		if (buff->link)
+			ft_memdel((void *)&buff->link);
+		ft_memdel((void *)&buff);
+	}
+	ft_memdel((void **)room);
+}
+
+void bzero_output(t_result **result)
+{
+	t_result *tmp;
+	t_room *tmp_r;
+
+	tmp = (*result);
 	while (tmp)
 	{
-		if (g_ants - min_len >= tmp->len_of_the_way - min_len)
+		tmp_r = tmp->link_arr;
+		while (tmp_r)
 		{
-
+			tmp_r->output = 0;
+			tmp_r = tmp_r->next;
 		}
+		tmp = tmp->next;
 	}
 }
 
-void output_final()
-//int		compare(int a, int b)
-//{
-//	if (a <= b) //1 < 2 = 1
-//		return (1);
-//	else // 2 > 1 = 0
-//		return (0);
-//}
-//
-//int		tri(t_result *list, int (*cmp)(int, int))
-//{
-//	while (list->next != NULL)
-//	{
-//		if ((*cmp)(list->len_of_the_way,list->next->len_of_the_way) == 0)
-//			return (0);
-//		list = list->next;
-//	}
-//	return (1);
-//}
-//
-//t_result 	*sort_list(t_result **list, int (*cmp)(int, int))
-//{
-//	t_result *first;
-//	t_result *swap;
-//
-//	first = (*list);
-//	while (tri(first, compare) == 0)
-//	{
-//		(*list) = first;
-//		while ((*list)->next != NULL)
-//		{
-//			if ((*cmp)((*list)->len_of_the_way,(*list)->next->len_of_the_way) == 0)
-//			{
-//				swap = (*list);
-//				(*list) = (*list)->next;
-//				(*list)->next = swap;
-//			}
-//			(*list) = (*list)->next;
-//		}
-//	}
-//	return (first);
-//}
-//
-//void sort_for_distribution(t_result **resulted_ways)
-//{
-//	t_result **tmp;
-//
-//	tmp = resulted_ways;
-//	(*resulted_ways) = sort_list(tmp,compare);
-//}
+int is_ant(t_result *result)
+{
+	t_result *tmp;
+	t_room *tmp_r;
+
+	tmp = result;
+	while (tmp)
+	{
+		tmp_r = tmp->link_arr;
+		while (tmp_r)
+		{
+			if ((tmp_r->what_ant != 0 && tmp_r->status != 0) || g_ants > 0)
+				return (1);
+			tmp_r = tmp_r->next;
+		}
+		tmp = tmp->next;
+	}
+	return (0);
+}
+
+void output(t_result **result)
+{
+	t_result *tmp;
+	t_room *tmp_r;
+
+	tmp = *result;
+	while (tmp)
+	{
+		tmp_r = rotate_to_end(tmp->link_arr);
+		while (tmp_r)
+		{
+			if (tmp_r->status && tmp_r->what_ant && !tmp_r->output)
+			{
+				que_for_output(*tmp_r);
+				tmp_r->output = 1;
+				if (tmp_r->start_end == END)
+				{
+					tmp_r->what_ant = 0;
+					tmp_r->what_ant = 0;
+					tmp_r->status = 0;
+					tmp_r->output = 1;
+				}
+				break ;
+			}
+			tmp_r = tmp_r->prev;
+		}
+		tmp = tmp->next;
+	}
+}
+
+void all_push(t_result **result)
+{
+	t_result *tmp;
+	t_room *r;
+
+	tmp = (*result);
+	while (tmp)
+	{
+		r = rotate_to_end(tmp->link_arr);
+		while (r)
+		{
+			if (r->start_end != END && r->what_ant && r->status)
+			{
+				r->output = 0;
+				push_ants(r);
+			}
+			r = r->prev;
+		}
+		tmp = tmp->next;
+	}
+}
+
+int not_outputed(t_result **result)
+{
+	t_result *tmp;
+	t_room *room;
+
+	tmp = (*result);
+	while (tmp)
+	{
+		room = tmp->link_arr;
+		while (room)
+		{
+			if (room->what_ant != 0 && room->output == 0)
+				return (1);
+			room = room->next;
+		}
+		tmp = tmp->next;
+	}
+	return (0);
+}
+
+t_room *rotate_to_end(t_room *room)
+{
+	while (room->next != NULL)
+		room = room->next;
+	return (room);
+}
+
+void push_ants(t_room *room)
+{
+	t_room *tmp_current;
+	t_room *tmp_next;
+
+	tmp_current = room;
+	if (room->next)
+		tmp_next = room->next;
+	else
+		return ;
+	tmp_next->what_ant = tmp_current->what_ant;
+	tmp_next->status = 1;
+	tmp_current->what_ant = 0;
+	tmp_current->status = 0;
+}
+
+int ants_distrib(t_room **room, int *ant)
+{
+	t_room *tmp;
+
+	tmp = (*room);
+	if (tmp->start_end == START)
+		tmp = tmp->next;
+	if (tmp->status == 0 && tmp->what_ant == 0 && g_ants > 0)
+	{
+		tmp->status = 1;
+		(*ant)++;
+		g_ants--;
+		tmp->output = 0;
+		tmp->what_ant = *ant;
+		return (1);
+	}
+	return (0);
+}
+
+void que_for_output(t_room elem)
+{
+	ft_putchar('L');
+	ft_putnbr(elem.what_ant);
+	ft_putchar('-');
+	ft_putstr(elem.name);
+	ft_putchar(' ');
+}
+
+void zero_status(t_result **resulted_ways)
+{
+	t_result *tmp;
+	t_room *tmp_r;
+
+	tmp = (*resulted_ways);
+	while (tmp != NULL)
+	{
+		tmp_r = tmp->link_arr;
+		while (tmp_r)
+		{
+			tmp_r->status = 0;
+			tmp_r = tmp_r->next;
+		}
+		tmp = tmp->next;
+	}
+}

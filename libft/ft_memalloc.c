@@ -18,11 +18,10 @@ void		*ft_memalloc(size_t size)
 	size_t	i;
 
 	i = 0;
-	str = NULL;
 	str = malloc(size);
 	if (str == NULL)
 		return (NULL);
-	while (str && i < size)
+	while (i < size)
 	{
 		((unsigned char *)str)[i] = 0;
 		i++;
