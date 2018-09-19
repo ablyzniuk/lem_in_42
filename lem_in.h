@@ -18,7 +18,7 @@
 # define END   2
 
 int					g_start_or_end;
-unsigned int		g_ants;
+int					g_ants;
 int					g_fd;
 int 				g_key;
 
@@ -42,10 +42,16 @@ typedef struct	s_result
 {
 	struct		s_room *link_arr;
 	int			len_of_the_way;
+	int 		quant_of_ant;
 	struct		s_result *prev;
 	struct		s_result *next;
 }				t_result;
 
+void	output_key_2_bonus(t_result **result);
+t_result *key_2_bonus_find_min(t_result **result);
+void	key_2_bonus(t_result **resulted_ways);
+void	bonus(t_room *room);
+void	key_bonus(t_result **resulted_ways);
 void	semi_condition(t_room *room);
 int		len_list(t_room **room);
 void	delete_buff(char **buff, int len);

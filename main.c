@@ -18,8 +18,15 @@ int main(int argc, char **argv)
 
 	room = NULL;
 	g_fd = open(argv[1],O_RDONLY);
-	if (ft_strcmp(argv[1],"w") == 0)
-		g_key = 1;
+//	g_key = 0;
+//	if (read(0, 0, 0) < 0)
+//	{
+//		ft_putstr("Invalid input data. Program terminated.\n");
+//		exit(0);
+//	}
+//	g_fd = 0;
+//	if (ft_strstr("w",argv[1]) == 0)
+//		g_key = 1;
 	read_and_valid(&room);
 	distribution_of_ants(&room);
 	return 0;
@@ -186,7 +193,6 @@ void room_validator(char **buff)
 		if (!ft_isdigit(buff[1][i]))
 		{
 			ft_putstr("Error, bad coordinates x\n");
-			system("leaks a.out");
 			exit(0);
 		}
 		i++;
@@ -197,7 +203,6 @@ void room_validator(char **buff)
 		if (!ft_isdigit(buff[2][i]))
 		{
 			ft_putstr("Error, bad coordinates y\n");
-			system("leaks a.out");
 			exit(0);
 		}
 		i++;
@@ -214,7 +219,6 @@ void count_quant_coords(char **buff)
 	if (i != 3)
 	{
 		ft_putstr("Error, room manage failed\n");
-		system("leaks a.out");
 		exit(0);
 	}
 }
@@ -229,7 +233,6 @@ void room_coords_validator(t_room **room, char **buff)
 		if (tmp->coord_x == ft_atoi(buff[1]) && tmp->coord_y == ft_atoi(buff[2]))
 		{
 			ft_putstr("Error, invalid room coordinates, program terminated.\n");
-			system("leaks a.out");
 			exit(0);
 		}
 		tmp = tmp->next;

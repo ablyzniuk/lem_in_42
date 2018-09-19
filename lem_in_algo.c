@@ -181,7 +181,118 @@ void  distribution_of_ants(t_room **room)
 		processing_of_the_ways(room,&resulted_ways);
 		i++;
 	}
+	g_key = 2;
+	if (g_key == 1)
+		key_bonus(&resulted_ways);
+	if (g_key == 2)
+	{
+		key_2_bonus(&resulted_ways);
+		output_key_2_bonus(&resulted_ways);
+	}
 	distribution(room,&resulted_ways);
+}
+
+void key_2_bonus(t_result **resulted_ways)
+{
+	int i;
+	t_result *tmp;
+	int min_len;
+
+	i = g_ants;
+	tmp = (*resulted_ways);
+	min_len = (*resulted_ways)->len_of_the_way;
+	while (i)
+	{
+		while (tmp)
+		{
+			if (i - min_len >= tmp->len_of_the_way - min_len && i)
+			{
+				tmp->quant_of_ant++;
+				i--;
+			}
+			else if (i - min_len < tmp->len_of_the_way - min_len && i)
+			{
+				(tmp = key_2_bonus_find_min(resulted_ways))->quant_of_ant++;
+				i--;
+			}
+			tmp = tmp->next;
+		}
+		tmp = (*resulted_ways);
+	}
+}
+
+void output_key_2_bonus(t_result **result)
+{
+	t_result *tmp;
+	int i;
+
+	i = 1;
+	tmp = (*result);
+	ft_putstr("\t Ant DISTRIBUTION on ways. \n\n");
+	while (tmp)
+	{
+		ft_putstr("The ");
+		ft_putnbr(i);
+		ft_putstr(" way: len - ");
+		ft_putnbr(tmp->len_of_the_way);
+		ft_putstr(" | it will be sent on it - ");
+		ft_putnbr(tmp->quant_of_ant);
+		ft_putstr(" ants.\n");
+		i++;
+		tmp = tmp->next;
+	}
+}
+
+t_result *key_2_bonus_find_min(t_result **result)
+{
+	t_result *tmp;
+	t_result *buff;
+
+	tmp = (*result);
+	buff = tmp;
+	while (tmp->next)
+	{
+		if (tmp->quant_of_ant < buff->quant_of_ant && tmp->len_of_the_way <= buff->len_of_the_way)
+			buff = tmp;
+		tmp = tmp->next;
+	}
+	return (buff);
+}
+
+void key_bonus(t_result **resulted_ways)
+{
+	t_result *tmp;
+	t_room *tmp_r;
+	int i;
+
+	i = 1;
+	tmp = *resulted_ways;
+	ft_putstr("\tWAYS FOR OUTPUT\n\n");
+	while (tmp)
+	{
+		tmp_r = tmp->link_arr;
+		ft_putstr("Way number: ");
+		ft_putnbr(i);
+		ft_putstr(" | Length: ");
+		ft_putnbr(tmp->len_of_the_way);
+		ft_putstr(" | ");
+		while (tmp_r)
+		{
+			bonus(tmp_r);
+			tmp_r = tmp_r->next;
+		}
+		ft_putchar('\n');
+		i++;
+		tmp = tmp->next;
+	}
+	ft_putchar('\n');
+}
+
+void bonus(t_room *room)
+{
+	ft_putstr(room->name);
+	if (room->next)
+		ft_putstr("<-");
 }
 
 void reverse_list(t_result **result)
@@ -191,12 +302,14 @@ void reverse_list(t_result **result)
 	tmp = (*result);
 	while (tmp)
 	{
+		tmp->quant_of_ant = 0;
 		error_no_conditons_for_algo(tmp->link_arr);
 		swap_list_elem(tmp->link_arr,tmp->len_of_the_way);
 		tmp = tmp->next;
 	}
 
 }
+
 
 void distribution(t_room **room, t_result **resulted_ways)
 {
@@ -209,13 +322,20 @@ void distribution(t_room **room, t_result **resulted_ways)
 	tmp = (*resulted_ways);
 	zero_status(resulted_ways);
 	reverse_list(resulted_ways);
-	ants_distrib(&(*resulted_ways)->link_arr,&n);
 	while (is_ant(*resulted_ways))
 	{
 		while (tmp)
 		{
-			if (g_ants - min_len >= tmp->len_of_the_way - min_len)
-				ants_distrib(&tmp->link_arr, &n);
+			if (g_ants - min_len >= tmp->len_of_the_way - min_len && g_ants)
+			{
+				if (ants_distrib(&tmp->link_arr, &n))
+					tmp->quant_of_ant++;
+			}
+			else if (g_ants - min_len < tmp->len_of_the_way - min_len && g_ants)
+			{
+				if (ants_distrib(&(key_2_bonus_find_min(resulted_ways))->link_arr, &n))
+					(key_2_bonus_find_min(resulted_ways))->quant_of_ant++;
+			}
 			tmp = tmp->next;
 		}
 		while (not_outputed(resulted_ways))
