@@ -22,7 +22,7 @@ char		*ft_strsub(char const *s, unsigned int start, size_t len)
 	if (!s)
 		return (NULL);
 	str = (char *)s;
-	sub_str = (char *)ft_memalloc(sizeof(char) * (len + 1));
+	sub_str = (char *)malloc(sizeof(char) * (len + 1));
 	if (sub_str == NULL)
 		return (NULL);
 	while (*str != '\0' && i < len)

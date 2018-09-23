@@ -19,8 +19,6 @@ size_t		ft_strnlen(char const *str, size_t len)
 	if (str == NULL)
 		return (0);
 	i = 0;
-	if (len == 0)
-		return (ft_strlen(str));
 	while (str[i] != '\0' && i < len)
 		i++;
 	return (i);

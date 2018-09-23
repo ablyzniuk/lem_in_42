@@ -18,9 +18,9 @@ void	ft_memdel(void **ap)
 		return ;
 	if (!*ap)
 		return ;
-	if (*ap != (void *)0 || ap != (void *)0)
+	if (*ap != NULL)
 	{
 		free(*ap);
-		*ap = (void *)0;
+		*ap = NULL;
 	}
 }

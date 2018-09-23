@@ -15,12 +15,12 @@
 static void		ft_swap(char *str)
 {
 	int			j;
-	size_t		len;
+	int			len;
 	char		c;
 
 	j = 0;
 	len = ft_strlen(str) - 1;
-	while ((int)len > j)
+	while (len > j)
 	{
 		c = str[j];
 		str[j] = str[len];
@@ -30,7 +30,7 @@ static void		ft_swap(char *str)
 	}
 }
 
-static int		lenght_1(int n)
+static int		lenght(int n)
 {
 	int			i;
 
@@ -54,7 +54,7 @@ const char		*fill_str(int j, int *i)
 {
 	char		*str;
 
-	str = (char *)malloc(sizeof(char) * lenght_1(j) + 1);
+	str = (char *)malloc(sizeof(char) * lenght(j) + 1);
 	if (str == NULL)
 		return (NULL);
 	while (j > 0)

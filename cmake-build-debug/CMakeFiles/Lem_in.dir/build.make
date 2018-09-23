@@ -81,28 +81,28 @@ CMakeFiles/Lem_in.dir/main.c.o.provides: CMakeFiles/Lem_in.dir/main.c.o.requires
 CMakeFiles/Lem_in.dir/main.c.o.provides.build: CMakeFiles/Lem_in.dir/main.c.o
 
 
-CMakeFiles/Lem_in.dir/lem-in_linker.c.o: CMakeFiles/Lem_in.dir/flags.make
-CMakeFiles/Lem_in.dir/lem-in_linker.c.o: ../lem-in_linker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Lem_in.dir/lem-in_linker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem-in_linker.c.o   -c /Users/ablizniu/Documents/Lem-in/lem-in_linker.c
+CMakeFiles/Lem_in.dir/lem_in_linker.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_linker.c.o: ../lem_in_linker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Lem_in.dir/lem_in_linker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_linker.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_linker.c
 
-CMakeFiles/Lem_in.dir/lem-in_linker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem-in_linker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem-in_linker.c > CMakeFiles/Lem_in.dir/lem-in_linker.c.i
+CMakeFiles/Lem_in.dir/lem_in_linker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_linker.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_linker.c > CMakeFiles/Lem_in.dir/lem_in_linker.c.i
 
-CMakeFiles/Lem_in.dir/lem-in_linker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem-in_linker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem-in_linker.c -o CMakeFiles/Lem_in.dir/lem-in_linker.c.s
+CMakeFiles/Lem_in.dir/lem_in_linker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_linker.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_linker.c -o CMakeFiles/Lem_in.dir/lem_in_linker.c.s
 
-CMakeFiles/Lem_in.dir/lem-in_linker.c.o.requires:
+CMakeFiles/Lem_in.dir/lem_in_linker.c.o.requires:
 
-.PHONY : CMakeFiles/Lem_in.dir/lem-in_linker.c.o.requires
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_linker.c.o.requires
 
-CMakeFiles/Lem_in.dir/lem-in_linker.c.o.provides: CMakeFiles/Lem_in.dir/lem-in_linker.c.o.requires
-	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem-in_linker.c.o.provides.build
-.PHONY : CMakeFiles/Lem_in.dir/lem-in_linker.c.o.provides
+CMakeFiles/Lem_in.dir/lem_in_linker.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_linker.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_linker.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_linker.c.o.provides
 
-CMakeFiles/Lem_in.dir/lem-in_linker.c.o.provides.build: CMakeFiles/Lem_in.dir/lem-in_linker.c.o
+CMakeFiles/Lem_in.dir/lem_in_linker.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_linker.c.o
 
 
 CMakeFiles/Lem_in.dir/lem_in_algo.c.o: CMakeFiles/Lem_in.dir/flags.make
@@ -153,24 +153,310 @@ CMakeFiles/Lem_in.dir/lem_int_wave.c.o.provides: CMakeFiles/Lem_in.dir/lem_int_w
 CMakeFiles/Lem_in.dir/lem_int_wave.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_int_wave.c.o
 
 
+CMakeFiles/Lem_in.dir/main_norme.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/main_norme.c.o: ../main_norme.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Lem_in.dir/main_norme.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/main_norme.c.o   -c /Users/ablizniu/Documents/Lem-in/main_norme.c
+
+CMakeFiles/Lem_in.dir/main_norme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/main_norme.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/main_norme.c > CMakeFiles/Lem_in.dir/main_norme.c.i
+
+CMakeFiles/Lem_in.dir/main_norme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/main_norme.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/main_norme.c -o CMakeFiles/Lem_in.dir/main_norme.c.s
+
+CMakeFiles/Lem_in.dir/main_norme.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/main_norme.c.o.requires
+
+CMakeFiles/Lem_in.dir/main_norme.c.o.provides: CMakeFiles/Lem_in.dir/main_norme.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/main_norme.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/main_norme.c.o.provides
+
+CMakeFiles/Lem_in.dir/main_norme.c.o.provides.build: CMakeFiles/Lem_in.dir/main_norme.c.o
+
+
+CMakeFiles/Lem_in.dir/main_norme_0.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/main_norme_0.c.o: ../main_norme_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Lem_in.dir/main_norme_0.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/main_norme_0.c.o   -c /Users/ablizniu/Documents/Lem-in/main_norme_0.c
+
+CMakeFiles/Lem_in.dir/main_norme_0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/main_norme_0.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/main_norme_0.c > CMakeFiles/Lem_in.dir/main_norme_0.c.i
+
+CMakeFiles/Lem_in.dir/main_norme_0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/main_norme_0.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/main_norme_0.c -o CMakeFiles/Lem_in.dir/main_norme_0.c.s
+
+CMakeFiles/Lem_in.dir/main_norme_0.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/main_norme_0.c.o.requires
+
+CMakeFiles/Lem_in.dir/main_norme_0.c.o.provides: CMakeFiles/Lem_in.dir/main_norme_0.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/main_norme_0.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/main_norme_0.c.o.provides
+
+CMakeFiles/Lem_in.dir/main_norme_0.c.o.provides.build: CMakeFiles/Lem_in.dir/main_norme_0.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o: ../lem_in_norme_linker_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_linker_0.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_linker_0.c > CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_linker_0.c -o CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o: ../lem_in_norme_wave_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_wave_0.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_wave_0.c > CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_wave_0.c -o CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o: ../lem_in_norme_algo_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_0.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_0.c > CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_0.c -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o: ../lem_in_norme_algo_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_1.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_1.c > CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_1.c -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o: ../lem_in_norme_algo_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_2.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_2.c > CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_2.c -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o: ../lem_in_norme_algo_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_3.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_3.c > CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_3.c -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o: ../lem_in_norme_algo_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_4.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_4.c > CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_4.c -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o: ../lem_in_norme_algo_5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_5.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_5.c > CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_5.c -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o
+
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o: ../lem_in_norme_algo_6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o   -c /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_6.c
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_6.c > CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.i
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_6.c -o CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.s
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.requires
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.provides: CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.provides
+
+CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o
+
+
 # Object files for target Lem_in
 Lem_in_OBJECTS = \
 "CMakeFiles/Lem_in.dir/main.c.o" \
-"CMakeFiles/Lem_in.dir/lem-in_linker.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_linker.c.o" \
 "CMakeFiles/Lem_in.dir/lem_in_algo.c.o" \
-"CMakeFiles/Lem_in.dir/lem_int_wave.c.o"
+"CMakeFiles/Lem_in.dir/lem_int_wave.c.o" \
+"CMakeFiles/Lem_in.dir/main_norme.c.o" \
+"CMakeFiles/Lem_in.dir/main_norme_0.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o" \
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o"
 
 # External object files for target Lem_in
 Lem_in_EXTERNAL_OBJECTS =
 
 Lem_in: CMakeFiles/Lem_in.dir/main.c.o
-Lem_in: CMakeFiles/Lem_in.dir/lem-in_linker.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_linker.c.o
 Lem_in: CMakeFiles/Lem_in.dir/lem_in_algo.c.o
 Lem_in: CMakeFiles/Lem_in.dir/lem_int_wave.c.o
+Lem_in: CMakeFiles/Lem_in.dir/main_norme.c.o
+Lem_in: CMakeFiles/Lem_in.dir/main_norme_0.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o
+Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o
 Lem_in: CMakeFiles/Lem_in.dir/build.make
 Lem_in: libft.a
 Lem_in: CMakeFiles/Lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable Lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,9 +465,20 @@ CMakeFiles/Lem_in.dir/build: Lem_in
 .PHONY : CMakeFiles/Lem_in.dir/build
 
 CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/main.c.o.requires
-CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem-in_linker.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_linker.c.o.requires
 CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_algo.c.o.requires
 CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_int_wave.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/main_norme.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/main_norme_0.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.requires
 
 .PHONY : CMakeFiles/Lem_in.dir/requires
 

@@ -22,7 +22,11 @@ char		**ft_neo_its_matrix(int column, int raw)
 	j = 0;
 	str = (char **)malloc(sizeof(char *) * (column + 1));
 	while (i < column)
-		str[i++] = (char *)malloc(sizeof(char) * (raw + 1));
+	{
+		str[i] = (char *)malloc(sizeof(char) * (raw + 1));
+		i++;
+	}
+	i = 0;
 	while (i < column)
 	{
 		while (j < raw)
@@ -30,7 +34,6 @@ char		**ft_neo_its_matrix(int column, int raw)
 			str[i][j] = '0';
 			j++;
 		}
-		str[i][j] = '\0';
 		i++;
 		j = 0;
 	}

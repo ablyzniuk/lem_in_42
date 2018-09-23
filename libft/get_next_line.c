@@ -5,124 +5,99 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/01/28 21:09:38 by ablizniu          #+#    #+#             */
-/*   Updated: 2018/01/28 21:09:41 by ablizniu         ###   ########.fr       */
+/*   Created: 2018/09/23 11:25:40 by ablizniu          #+#    #+#             */
+/*   Updated: 2018/09/23 11:28:19 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static t_list		*semi_initialize(t_list *tmp, int fd)
+static	ssize_t	find_n(const char *mas)
 {
-	tmp->next = (t_list *)malloc(sizeof(t_list));
-	tmp = tmp->next;
-	tmp->content_size = (size_t)fd;
-	tmp->content = NULL;
-	tmp->next = NULL;
-	return (tmp);
+	ssize_t		i;
+
+	i = 0;
+	while (mas[i] && mas[i] != '\n')
+		i++;
+	return (i);
 }
 
-static t_list		*initialize(t_list **gnl, int fd)
+static	int		write_arr(char **arr, ssize_t *ret, const int fd, char *fr_arr)
 {
-	t_list			*tmp;
+	char		*buf;
 
-	if ((*gnl) == NULL || (*gnl)->content_size == (size_t)fd)
+	if (!(buf = (char *)malloc(sizeof(char) * (BUFF_SIZE + 1))))
+		return (-1);
+	while ((*arr)[find_n(*arr)] != '\n' && (*ret = read(fd, buf, BUFF_SIZE)))
 	{
-		if ((*gnl) != NULL && (char *)(*gnl)->content)
-			return ((*gnl));
-		(*gnl) = (t_list *)malloc(sizeof(t_list));
-		(*gnl)->content_size = (size_t)fd;
-		(*gnl)->content = NULL;
-		(*gnl)->next = NULL;
-		return ((*gnl));
+		if (*ret < 0)
+			return (-1);
+		buf[(*ret)] = '\0';
+		fr_arr = *arr;
+		if (!((*arr) = ft_strjoin(*arr, buf)))
+			return (-1);
+		free(fr_arr);
 	}
-	tmp = (*gnl);
-	while (tmp->content_size != (size_t)fd)
-	{
-		if (!tmp->next)
-		{
-			tmp = semi_initialize(tmp, fd);
-			return (tmp);
-		}
-		tmp = tmp->next;
-	}
-	return (tmp);
-}
-
-static int			format(char **line, t_list **gnl, ssize_t f_read)
-{
-	char			*tmp;
-
-	tmp = NULL;
-	if (f_read == 0)
-	{
-		if (f_read == 0 && (*gnl)->content)
-		{
-			if (f_read == 0 && !*(char *)(*gnl)->content)
-				return (0);
-			*line = ft_strsub((*gnl)->content, 0, ft_strlen((*gnl)->content));
-			ft_memdel((void *)&(*gnl)->content);
-			return (1);
-		}
-		return (0);
-	}
-	*line = ft_strsub((*gnl)->content, 0, ft_strchr((*gnl)->content, '\n')
-	? ft_strchr((*gnl)->content, '\n') - (char *)(*gnl)->content :
-	ft_strlen((*gnl)->content));
-	tmp = ft_strsub((ft_strchr((*gnl)->content, '\n') + 1), 0,
-	ft_strlen(ft_strchr((*gnl)->content, '\n') + 1));
-	ft_memdel(&(*gnl)->content);
-	(*gnl)->content = ft_strsub(tmp, 0, ft_strlen(tmp));
-	ft_strdel(&tmp);
-	return (1);
-}
-
-static int			remainder_list(char **line, t_list **gnl)
-{
-	char			*tmp;
-
-	tmp = NULL;
-	if (!((*gnl)->content) || !*(char *)(*gnl)->content)
-		return (0);
-	if (ft_strchr((*gnl)->content, '\n'))
-	{
-		*line = ft_strsub((*gnl)->content, 0, ft_strchr((*gnl)->content, '\n') ?
-		ft_strchr((*gnl)->content, '\n') - (char *)(*gnl)->content :
-		ft_strlen((*gnl)->content));
-		tmp = ft_strsub(ft_strchr((*gnl)->content, '\n') + 1, 0,
-		ft_strlen(ft_strchr((*gnl)->content, '\n') + 1));
-		ft_memdel(&(*gnl)->content);
-		(*gnl)->content = ft_strsub(tmp, 0, ft_strlen(tmp));
-		ft_strdel(&tmp);
-		return (1);
-	}
+	free(buf);
 	return (0);
 }
 
-int					get_next_line(const int fd, char **line)
+static	int		get_first_line(char **arr, char **line, ssize_t ret)
 {
-	static t_list	*head;
-	char			*tmp;
-	t_list			*gnl;
-	ssize_t			f_read;
-	char			buff[BUFF_SIZE + 1];
+	ssize_t			i;
+	char			*free_old_arr;
 
-	if (BUFF_SIZE < 1 || fd < 0 || read(fd, 0, 0) < 0 || line == NULL)
-		return (-1);
-	gnl = initialize(&head, fd);
-	ft_bzero(buff, BUFF_SIZE);
-	if (gnl && (char *)gnl->content)
-		if (remainder_list(line, &gnl))
-			return (1);
-	while ((f_read = read(fd, buff, BUFF_SIZE)) > 0)
+	free_old_arr = NULL;
+	i = find_n(*arr);
+	if ((*arr)[i] == '\n' || (i && !ret))
 	{
-		buff[f_read] = '\0';
-		tmp = ft_strdup(gnl->content);
-		ft_memdel((void *)&gnl->content);
-		gnl->content = ft_strjoin(tmp, buff);
-		ft_memdel((void *)&tmp);
-		if (ft_strchr(buff, '\n'))
-			break ;
+		if (!((*line) = ft_strsub(*arr, 0, i)))
+			return (-1);
+		free_old_arr = *arr;
+		*arr = ft_strsub(*arr, (i + 1), (ft_strlen(*arr) - i));
+		free(free_old_arr);
 	}
-	return (format(line, &gnl, f_read));
+	else
+		return (0);
+	return (1);
+}
+
+static	int		make_new_fd(const int fd, t_gnl **poi, t_gnl *l)
+{
+	if (!((*poi) = (t_gnl *)malloc(sizeof(t_gnl))))
+		return (-1);
+	if (!((*poi)->arr = (char *)ft_memalloc(sizeof(char) * (BUFF_SIZE + 1))))
+	{
+		free(*poi);
+		return (-1);
+	}
+	(*poi)->fd = fd;
+	(*poi)->next = NULL;
+	while (l && l->next && fd != l->fd)
+		l = l->next;
+	if (l && !(l->next))
+		l->next = *poi;
+	return (0);
+}
+
+int				get_next_line(const int fd, char **line)
+{
+	static	t_gnl	*l;
+	t_gnl			*poi;
+	char			*free_old_arr;
+	ssize_t			ret;
+
+	if (fd < 0 || !line || BUFF_SIZE <= 0)
+		return (-1);
+	free_old_arr = NULL;
+	if (!l && (make_new_fd(fd, &l, NULL) == -1))
+		return (-1);
+	poi = l;
+	while (poi && fd != poi->fd)
+		poi = poi->next;
+	if (!poi && (make_new_fd(fd, &poi, l) == -1))
+		return (-1);
+	if (write_arr(&(poi->arr), &ret, fd, free_old_arr) == -1)
+		return (-1);
+	return (get_first_line(&(poi->arr), line, ret));
 }

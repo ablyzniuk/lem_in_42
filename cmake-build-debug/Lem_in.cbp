@@ -118,31 +118,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem-in_linker.c">
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_algo.c">
 			<Option target="Lem_in"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_algo.c">
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_linker.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_0.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_1.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_2.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_3.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_4.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_5.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_6.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_linker_0.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_in_norme_wave_0.c">
 			<Option target="Lem_in"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/lem_int_wave.c">
 			<Option target="Lem_in"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_alist_initialize.c">
-			<Option target="ft"/>
-		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_atoi.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_bchr.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_bzero.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_doop.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_exponentiation.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_isalnum.c">
@@ -161,15 +179,6 @@
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_itoa.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_itoa_base_printf.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_itoa_base_printf_u.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_len_swap.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_lstadd.c">
@@ -205,16 +214,7 @@
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memcpy.c">
 			<Option target="ft"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memcpy_end.c">
-			<Option target="ft"/>
-		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memdel.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memjn.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memjoin.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_memmove.c">
@@ -224,21 +224,6 @@
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_neo_its_matrix.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf_core.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf_core_2.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_printf_d.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putchar.c">
@@ -263,12 +248,6 @@
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_putstr_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_realloc.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_smt.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/ft_strcat.c">
@@ -367,10 +346,13 @@
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/get_next_line.c">
 			<Option target="ft"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Lem-in/libft/specificators.c">
-			<Option target="ft"/>
-		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/main.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/main_norme.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/main_norme_0.c">
 			<Option target="Lem_in"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/CMakeLists.txt">

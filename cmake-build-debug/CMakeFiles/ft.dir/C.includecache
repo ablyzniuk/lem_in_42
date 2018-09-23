@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/ablizniu/Documents/Lem-in/libft/ft_alist_initialize.c
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-
 /Users/ablizniu/Documents/Lem-in/libft/ft_atoi.c
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_bchr.c
 libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
 
@@ -25,8 +17,6 @@ libft.h
 /Users/ablizniu/Documents/Lem-in/libft/ft_doop.c
 libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_exponentiation.c
 
 /Users/ablizniu/Documents/Lem-in/libft/ft_isalnum.c
 libft.h
@@ -49,18 +39,6 @@ libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
 
 /Users/ablizniu/Documents/Lem-in/libft/ft_itoa.c
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_itoa_base_printf.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_itoa_base_printf_u.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_len_swap.c
 libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
 
@@ -108,19 +86,7 @@ libft.h
 libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
 
-/Users/ablizniu/Documents/Lem-in/libft/ft_memcpy_end.c
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-
 /Users/ablizniu/Documents/Lem-in/libft/ft_memdel.c
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_memjn.c
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_memjoin.c
 libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
 
@@ -135,38 +101,6 @@ libft.h
 /Users/ablizniu/Documents/Lem-in/libft/ft_neo_its_matrix.c
 libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-stdarg.h
--
-wchar.h
--
-stdio.h
--
-errno.h
--
-time.h
--
-locale.h
--
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf_core.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf_core_2.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf_d.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
 
 /Users/ablizniu/Documents/Lem-in/libft/ft_putchar.c
 libft.h
@@ -199,14 +133,6 @@ libft.h
 /Users/ablizniu/Documents/Lem-in/libft/ft_putstr_fd.c
 libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_realloc.c
-libft.h
-/Users/ablizniu/Documents/Lem-in/libft/libft.h
-
-/Users/ablizniu/Documents/Lem-in/libft/ft_smt.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
 
 /Users/ablizniu/Documents/Lem-in/libft/ft_strcat.c
 libft.h
@@ -339,26 +265,14 @@ libft.h
 /Users/ablizniu/Documents/Lem-in/libft/libft.h
 unistd.h
 -
+stdio.h
+-
+fcntl.h
+-
 stdlib.h
 -
 string.h
 -
 stddef.h
 -
-sys/types.h
--
-sys/stat.h
--
-unistd.h
--
-fcntl.h
--
-limits.h
--
-errno.h
--
-
-/Users/ablizniu/Documents/Lem-in/libft/specificators.c
-ft_printf.h
-/Users/ablizniu/Documents/Lem-in/libft/ft_printf.h
 

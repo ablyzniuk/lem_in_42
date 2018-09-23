@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/lem_in_algo.c" line="517" mnemonic="4" />
-  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Lem_in" targetName="Lem_in" />
       <config projectName="Lem_in" targetName="ft" />
+      <config projectName="Lem_in" targetName="Lem_in" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,17 +14,147 @@
   <component name="ChangeListManager">
     <list default="true" id="419b5dc5-a48e-41f7-a4c4-e1b89dea5066" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/a.out" afterPath="$PROJECT_DIR$/a.out" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem-in_linker.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem-in_linker.c.o" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem-in_linker.c.o" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_algo.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_algo.c.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_int_wave.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_int_wave.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_alist_initialize.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_atoi.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_atoi.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_bchr.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_exponentiation.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_itoa.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_itoa.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_itoa_base_printf.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_itoa_base_printf_u.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_len_swap.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstadd.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstadd.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstdel.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstdel.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstdelone.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstdelone.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstiter.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstiter.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstmap.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstmap.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstnew.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_lstnew.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_memcpy.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_memcpy.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_memcpy_end.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_memdel.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_memdel.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_memjn.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_memjoin.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_neo_its_matrix.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_neo_its_matrix.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_printf.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_printf_core.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_printf_core_2.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_printf_d.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_putnbr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_putnbr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_putnbr_fd.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_putnbr_fd.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_realloc.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_smt.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strchr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strchr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strdup.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strdup.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strnequ.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strnequ.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strnlen.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strnlen.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strsplit.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strsplit.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strsub.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strsub.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strtrim.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_strtrim.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/get_next_line.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/get_next_line.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/libft/specificators.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lem_in" afterPath="$PROJECT_DIR$/cmake-build-debug/Lem_in" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lem_in.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Lem_in.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft.a" afterPath="$PROJECT_DIR$/cmake-build-debug/libft.a" />
+      <change beforePath="$PROJECT_DIR$/lem-in_linker.c" afterPath="" />
       <change beforePath="$PROJECT_DIR$/lem_in.h" afterPath="$PROJECT_DIR$/lem_in.h" />
       <change beforePath="$PROJECT_DIR$/lem_in_algo.c" afterPath="$PROJECT_DIR$/lem_in_algo.c" />
+      <change beforePath="$PROJECT_DIR$/lem_int_wave.c" afterPath="$PROJECT_DIR$/lem_int_wave.c" />
+      <change beforePath="$PROJECT_DIR$/libft/Makefile" afterPath="$PROJECT_DIR$/libft/Makefile" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_alist_initialize.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_alist_initialize.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_atoi.c" afterPath="$PROJECT_DIR$/libft/ft_atoi.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_bchr.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_bchr.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_exponentiation.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_exponentiation.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_itoa.c" afterPath="$PROJECT_DIR$/libft/ft_itoa.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_itoa.o" afterPath="$PROJECT_DIR$/libft/ft_itoa.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_itoa_base_printf.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_itoa_base_printf.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_itoa_base_printf_u.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_itoa_base_printf_u.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_len_swap.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_len_swap.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_lstnew.c" afterPath="$PROJECT_DIR$/libft/ft_lstnew.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memccpy.c" afterPath="$PROJECT_DIR$/libft/ft_memccpy.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memcpy.c" afterPath="$PROJECT_DIR$/libft/ft_memcpy.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memcpy.o" afterPath="$PROJECT_DIR$/libft/ft_memcpy.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memcpy_end.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memcpy_end.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memdel.c" afterPath="$PROJECT_DIR$/libft/ft_memdel.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memdel.o" afterPath="$PROJECT_DIR$/libft/ft_memdel.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memjn.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memjn.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memjoin.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_memjoin.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_neo_its_matrix.c" afterPath="$PROJECT_DIR$/libft/ft_neo_its_matrix.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_neo_its_matrix.o" afterPath="$PROJECT_DIR$/libft/ft_neo_its_matrix.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf.h.gch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf_core.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf_core.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf_core_2.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf_core_2.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf_d.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_printf_d.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_putnbr.c" afterPath="$PROJECT_DIR$/libft/ft_putnbr.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_putnbr.o" afterPath="$PROJECT_DIR$/libft/ft_putnbr.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_putnbr_fd.c" afterPath="$PROJECT_DIR$/libft/ft_putnbr_fd.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_putnbr_fd.o" afterPath="$PROJECT_DIR$/libft/ft_putnbr_fd.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_putstr.c" afterPath="$PROJECT_DIR$/libft/ft_putstr.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_realloc.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_realloc.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_smt.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strchr.c" afterPath="$PROJECT_DIR$/libft/ft_strchr.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strchr.o" afterPath="$PROJECT_DIR$/libft/ft_strchr.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strdup.c" afterPath="$PROJECT_DIR$/libft/ft_strdup.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strdup.o" afterPath="$PROJECT_DIR$/libft/ft_strdup.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strnequ.c" afterPath="$PROJECT_DIR$/libft/ft_strnequ.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strnequ.o" afterPath="$PROJECT_DIR$/libft/ft_strnequ.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strnlen.c" afterPath="$PROJECT_DIR$/libft/ft_strnlen.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strnlen.o" afterPath="$PROJECT_DIR$/libft/ft_strnlen.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strsplit.c" afterPath="$PROJECT_DIR$/libft/ft_strsplit.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strsplit.o" afterPath="$PROJECT_DIR$/libft/ft_strsplit.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strsub.c" afterPath="$PROJECT_DIR$/libft/ft_strsub.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strsub.o" afterPath="$PROJECT_DIR$/libft/ft_strsub.o" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strtrim.c" afterPath="$PROJECT_DIR$/libft/ft_strtrim.c" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strtrim.o" afterPath="$PROJECT_DIR$/libft/ft_strtrim.o" />
+      <change beforePath="$PROJECT_DIR$/libft/get_next_line.c" afterPath="$PROJECT_DIR$/libft/get_next_line.c" />
+      <change beforePath="$PROJECT_DIR$/libft/get_next_line.o" afterPath="$PROJECT_DIR$/libft/get_next_line.o" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.h" afterPath="$PROJECT_DIR$/libft/libft.h" />
+      <change beforePath="$PROJECT_DIR$/libft/libftprintf.a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/specificators.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libft/specificators.o" afterPath="" />
       <change beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
+      <change beforePath="$PROJECT_DIR$/p.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/test.txt" afterPath="$PROJECT_DIR$/test.txt" />
+      <change beforePath="$PROJECT_DIR$/vis.py" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +170,28 @@
       <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_norme.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_norme.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="301" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="301" />
               <folding />
             </state>
           </provider>
@@ -53,54 +200,68 @@
       <file leaf-file-name="lem_in.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lem_in.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="67">
+              <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lem_in_algo.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lem_in_algo.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="188" column="36" lean-forward="true" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
-              <folding>
-                <element signature="e#913#1333#0" expanded="false" />
-                <element signature="e#1335#1951#0" expanded="false" />
-                <element signature="e#1953#2250#0" expanded="false" />
-                <element signature="e#2252#2885#0" expanded="false" />
-                <element signature="e#2887#3142#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lem_int_wave.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lem_int_wave.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="289">
+              <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ft_strchr.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libft/ft_strchr.c">
+      <file leaf-file-name="lem_in_norme_algo_6.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_6.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="-240">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lem_in_norme_wave_0.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lem_in_norme_wave_0.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-149">
+              <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="libft.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libft/libft.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lem_in_norme_algo_3.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_3.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lem_in_norme_algo_0.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_0.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,20 +276,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/libft/ft_strsub.c" />
-        <option value="$PROJECT_DIR$/libft/libft.h" />
         <option value="$PROJECT_DIR$/libft/ft_strdup.c" />
         <option value="$PROJECT_DIR$/libft/ft_strlen.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/libft/ft_putnbr.c" />
         <option value="$PROJECT_DIR$/libft/ft_memalloc.c" />
         <option value="$PROJECT_DIR$/libft/ft_strsplit.c" />
-        <option value="$PROJECT_DIR$/lem_int_wave.c" />
-        <option value="$PROJECT_DIR$/lem-in_linker.c" />
         <option value="$PROJECT_DIR$/libft/ft_putstr.c" />
-        <option value="$PROJECT_DIR$/main.c" />
-        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/libft/ft_strstr.c" />
+        <option value="$PROJECT_DIR$/lem-in_linker.c" />
+        <option value="$PROJECT_DIR$/libft/get_next_line.c" />
+        <option value="$PROJECT_DIR$/main_norme.c" />
+        <option value="$PROJECT_DIR$/main_norme_0.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_linker_0.c" />
+        <option value="$PROJECT_DIR$/lem_in_linker.c" />
+        <option value="$PROJECT_DIR$/lem_int_wave.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_algo_0.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_algo_1.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_algo_4.c" />
         <option value="$PROJECT_DIR$/lem_in.h" />
         <option value="$PROJECT_DIR$/lem_in_algo.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_algo_2.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_algo_5.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_algo_3.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_algo_6.c" />
+        <option value="$PROJECT_DIR$/lem_in_norme_wave_0.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/libft/libft.h" />
+        <option value="$PROJECT_DIR$/libft/Makefile" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
   </component>
@@ -139,9 +315,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="11" />
+    <option name="y" value="24" />
     <option name="width" value="2560" />
     <option name="height" value="1337" />
   </component>
@@ -202,10 +378,10 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lem_in" RUN_TARGET_NAME="Lem_in" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="Lem_in" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../test.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lem_in" TARGET_NAME="Lem_in" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lem_in" RUN_TARGET_NAME="Lem_in">
+    <configuration name="Lem_in" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../test.txt -w -a" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lem_in" TARGET_NAME="Lem_in" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lem_in" RUN_TARGET_NAME="Lem_in">
       <envs />
     </configuration>
-    <configuration name="ft" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lem_in" TARGET_NAME="ft" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lem_in" RUN_TARGET_NAME="Lem_in">
+    <configuration name="ft" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lem_in" TARGET_NAME="ft" CONFIG_NAME="Debug">
       <envs />
     </configuration>
     <list size="3">
@@ -291,16 +467,23 @@
       <workItem from="1537274601337" duration="18080000" />
       <workItem from="1537360172727" duration="4201000" />
       <workItem from="1537374834359" duration="917000" />
-      <workItem from="1537378615316" duration="7280000" />
+      <workItem from="1537378615316" duration="7342000" />
+      <workItem from="1537446550332" duration="2004000" />
+      <workItem from="1537453900521" duration="1941000" />
+      <workItem from="1537458883158" duration="4934000" />
+      <workItem from="1537535451300" duration="2416000" />
+      <workItem from="1537542299070" duration="2809000" />
+      <workItem from="1537556524419" duration="3480000" />
+      <workItem from="1537689327263" duration="1886000" />
+      <workItem from="1537695016247" duration="7541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207421000" />
+    <option name="totallyTimeSpent" value="234494000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="25" width="2560" height="1337" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="24" width="2560" height="1337" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11579362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -308,11 +491,11 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32895815" sideWeight="0.4986215" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32483554" sideWeight="0.5013785" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30352747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40032813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20016406" sideWeight="0.4978338" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4347826" sideWeight="0.4978338" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28137818" sideWeight="0.4986215" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28137818" sideWeight="0.4986215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -330,50 +513,36 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lem_in_algo.c</url>
-          <line>286</line>
-          <option name="timeStamp" value="1313" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lem_in_algo.c</url>
-          <line>351</line>
-          <option name="timeStamp" value="1482" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lem_in_algo.c</url>
-          <line>187</line>
-          <option name="timeStamp" value="1490" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lem_in_algo.c</url>
-          <line>188</line>
-          <option name="timeStamp" value="1491" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lem_in_algo.c</url>
-          <line>185</line>
-          <option name="timeStamp" value="1493" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lem_in_algo.c</url>
-          <line>186</line>
-          <option name="timeStamp" value="1494" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1495" />
+      <option name="time" value="1547" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="buff[i]" language="ObjectiveC" />
         <watch expression="g_fd" language="ObjectiveC" />
         <watch expression="g_ants" language="ObjectiveC" />
+        <watch expression="argv[i]" language="ObjectiveC" />
+        <watch expression="g_start_or_end" language="ObjectiveC" />
+        <watch expression="get_next_line(g_fd, &amp;line)" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>get_next_line(g_fd, &amp;line)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_start_or_end</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>argv[i]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>g_ants</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -409,115 +578,9 @@
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>len</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>static int len</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/author">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/author">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem_in.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/author">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/author">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -642,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_strcmp.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_lstdel.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -660,13 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3512">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -698,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_strdel.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_memdel.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -712,95 +754,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_linker.c">
+    <entry file="file://$PROJECT_DIR$/libft/ft_strchr.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_strcmp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_strstr.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem-in_linker.c" />
+    <entry file="file://$PROJECT_DIR$/libft/ft_strdel.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_putstr.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/libft.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libft/get_next_line.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/main_norme_0.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="9" column="80" lean-forward="false" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_strchr.c">
+    <entry file="file://$PROJECT_DIR$/lem_in_linker.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="651">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_linker_0.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem_in.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lem_int_wave.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="1935">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="73" column="15" lean-forward="false" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lem_in_algo.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="188" column="36" lean-forward="true" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
-          <folding>
-            <element signature="e#913#1333#0" expanded="false" />
-            <element signature="e#1335#1951#0" expanded="false" />
-            <element signature="e#1953#2250#0" expanded="false" />
-            <element signature="e#2252#2885#0" expanded="false" />
-            <element signature="e#2887#3142#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_5.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_6.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in_norme_wave_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="301" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="301" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/libft.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_norme.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -3,28 +3,30 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ablizniu <ablizniu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/01 16:10:11 by ablizniu          #+#    #+#             */
-/*   Updated: 2018/05/05 16:36:33 by ablizniu         ###   ########.fr       */
+/*   Updated: 2018/02/19 19:11:39 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# define BUFF_SIZE 100
-
 # include <unistd.h>
+# include <stdio.h>
+# include <fcntl.h>
 # include <stdlib.h>
 # include <string.h>
 # include <stddef.h>
-# include <sys/types.h>
-# include <sys/stat.h>
-# include <unistd.h>
-# include <fcntl.h>
-# include <limits.h>
-# include <errno.h>
+# define BUFF_SIZE 1000
+
+typedef	struct		s_gnl
+{
+	char			*arr;
+	int				fd;
+	struct s_gnl	*next;
+}					t_gnl;
 
 typedef struct		s_list
 {
@@ -33,36 +35,13 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-typedef struct		s_alist
+typedef struct		s_arr
 {
-	char			buff[BUFF_SIZE + 1];
-	char			*symbol;
-	size_t			size_bytes;
-	char			*str;
-	size_t			extra;
-	size_t			len_format;
-	size_t			n;
-	size_t			i;
-	size_t			j;
-	size_t			k;
 	int				fd;
-	char			*tmp_1;
-	struct s_alist	*next;
-	struct t_list	*list;
-	struct s_alist	*prev;
-}					t_alist;
+	char			*arr;
+	struct s_arr	*next;
+}					t_arr;
 
-void				ft_memjn(void *dst,void *src, size_t from, size_t to);
-void				ft_bchr(const void *dst,char chr,size_t len);
-size_t				lenght(uintmax_t num, int base);
-void				swap(char *str, size_t len);
-long int			ft_exponentiation(int num, int exp);
-void				*ft_memcpy_end(void *dst, void *src, size_t len);
-int					get_next_line(const int fd, char **line);
-t_alist				*ft_alist_initialize(t_alist *head, size_t bytes);
-void				*ft_realloc(void *src, size_t size);
-void				*ft_memjoin(void *s1, size_t s1_size,
-					void *s2, size_t s2_size);
 char				**ft_neo_its_matrix(int column, int raw);
 void				ft_swap_int(int *a, int *b);
 void				ft_swap_char(char *a, char *b);
@@ -133,5 +112,6 @@ void				ft_strdel(char **as);
 char				*ft_strnew(size_t size);
 void				ft_memdel(void **ap);
 void				*ft_memalloc(size_t size);
+int					get_next_line(const int fd, char **line);
 
 #endif

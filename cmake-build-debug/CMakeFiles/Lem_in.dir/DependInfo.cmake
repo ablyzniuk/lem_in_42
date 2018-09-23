@@ -4,10 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/ablizniu/Documents/Lem-in/lem-in_linker.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem-in_linker.c.o"
   "/Users/ablizniu/Documents/Lem-in/lem_in_algo.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_algo.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_linker.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_linker.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_0.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_1.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_2.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_3.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_4.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_5.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_algo_6.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_linker_0.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o"
+  "/Users/ablizniu/Documents/Lem-in/lem_in_norme_wave_0.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o"
   "/Users/ablizniu/Documents/Lem-in/lem_int_wave.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_int_wave.c.o"
   "/Users/ablizniu/Documents/Lem-in/main.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/main.c.o"
+  "/Users/ablizniu/Documents/Lem-in/main_norme.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme.c.o"
+  "/Users/ablizniu/Documents/Lem-in/main_norme_0.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme_0.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
