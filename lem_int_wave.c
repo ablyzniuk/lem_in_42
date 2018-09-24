@@ -68,7 +68,7 @@ void			walking_on_links(t_room **tmp, t_room **que, t_room **room)
 	i = 0;
 	if (!(*tmp)->link)
 		return ;
-	while ((*tmp)->link[i].name != NULL)
+	while ((*tmp)->link[i].name != NULL && i < (*tmp)->llr)
 	{
 		buff = que_search(room, (*tmp)->link[i].name);
 		if (buff->status == 0)

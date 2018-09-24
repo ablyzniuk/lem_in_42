@@ -23,6 +23,7 @@ void			linker(t_room **room, char **line)
 	buff = ft_strsplit(*line, '-');
 	ft_strdel(line);
 	checker_links(buff);
+	(*room)->list_len = len_list(room);
 	while (tmp && ft_strcmp(tmp->name, buff[0]) != 0)
 		tmp = tmp->next;
 	while (link && ft_strcmp(link->name, buff[1]) != 0)
@@ -80,27 +81,27 @@ t_room			*search_link(t_room **room, char *name)
 	return (NULL);
 }
 
-void			create_links(t_room *link1,
+inline void		create_links(t_room *link1,
 				t_room *link2, char **buff, t_room **room)
 {
-	int			i;
-	int			len;
+	int			var[3];
 
-	i = 0;
-	len = len_list(room);
-	if (link1 && link1->link == NULL)
-		link1->link = (t_room *)ft_memalloc(sizeof(t_room) * len);
-	else if (!link1)
-		error_no_links();
-	if (link2 && link2->link == NULL)
-		link2->link = (t_room *)ft_memalloc(sizeof(t_room) * len);
-	else if (!link2)
-		error_no_links();
-	while (link1->link[i].name != NULL)
-		i++;
-	link1->link[i] = *search_link(room, buff[1]);
-	i = 0;
-	while (link2->link[i].name != NULL)
-		i++;
-	link2->link[i] = *search_link(room, buff[0]);
+	ft_bzero_int(var, 3);
+	norme_for_linker_allocation(&link1, &link2, (*room)->list_len);
+	var[1] = link1->llr;
+	while (link1 && link1->link[var[0]].name != NULL && link1->llr > 0)
+	{
+		link1->llr--;
+		var[0]++;
+	}
+	link1->link[var[0]] = *search_link(room, buff[1]);
+	var[0] = 0;
+	var[2] = link2->llr;
+	while (link2 && link2->link[var[0]].name != NULL && link2->llr > 0)
+	{
+		link2->llr--;
+		var[0]++;
+	}
+	link2->link[var[0]] = *search_link(room, buff[0]);
+	norme_for_linker(var, &link1, &link2);
 }

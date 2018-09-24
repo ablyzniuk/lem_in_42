@@ -26,12 +26,17 @@ int				checker_room(char **line, t_room **room)
 		delete_buff(buff, 2);
 		return (1);
 	}
-	room_validator(buff);
+	if (room_validator(buff) == 0)
+	{
+		delete_buff(buff, 2);
+		ft_strdel(line);
+		return (0);
+	}
 	room_coords_validator(room, buff);
 	working_with_room(buff, room, s_e_choose());
 	delete_buff(buff, 3);
 	ft_strdel(line);
-	return (0);
+	return (1);
 }
 
 void			delete_buff(char **buff, int len)
@@ -39,9 +44,10 @@ void			delete_buff(char **buff, int len)
 	int			i;
 
 	i = 0;
-	while (i < len)
+	while (i < len && buff[i])
 	{
-		ft_strdel(&buff[i]);
+		if (buff[i])
+			ft_strdel(&buff[i]);
 		i++;
 	}
 	free(buff);
@@ -76,12 +82,13 @@ void			working_with_room(char **buff, t_room **room, int s_e)
 	}
 }
 
-void			room_validator(char **buff)
+int				room_validator(char **buff)
 {
 	int			i;
 
 	i = 0;
-	count_quant_coords(buff);
+	if (!count_quant_coords(buff))
+		return (0);
 	while (buff[1][i] != '\0')
 	{
 		if (!ft_isdigit(buff[1][i]))
@@ -101,9 +108,10 @@ void			room_validator(char **buff)
 		}
 		i++;
 	}
+	return (1);
 }
 
-void			count_quant_coords(char **buff)
+int				count_quant_coords(char **buff)
 {
 	int			i;
 
@@ -111,8 +119,6 @@ void			count_quant_coords(char **buff)
 	while (buff[i] != NULL)
 		i++;
 	if (i != 3)
-	{
-		ft_putstr("Error, room manage failed\n");
-		exit(0);
-	}
+		return (0);
+	return (1);
 }

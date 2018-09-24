@@ -24,8 +24,8 @@ void				norm_for_disribution_1(t_result
 void				norm_for_disribution_2(t_result **resulted_ways,
 					t_room **room)
 {
-	free_room(room);
 	free_ways(resulted_ways);
+	free_room(room);
 }
 
 void				free_ways(t_result **result)
@@ -51,8 +51,7 @@ void				free_room(t_room **room)
 		buff = (*room);
 		(*room) = (*room)->next;
 		ft_strdel(&buff->name);
-		if (buff->link)
-			ft_memdel((void *)&buff->link);
+		ft_memdel((void *)&buff->link);
 		ft_memdel((void *)&buff);
 	}
 	ft_memdel((void **)room);

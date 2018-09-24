@@ -22,6 +22,7 @@ void				bonus(t_room *room)
 void				reverse_list(t_result **result)
 {
 	t_result		*tmp;
+	t_room			*start;
 	int				i;
 
 	i = 1;
@@ -35,6 +36,7 @@ void				reverse_list(t_result **result)
 	}
 	if ((tmp = check_shortest(result)))
 	{
+		start = tmp->link_arr;
 		tmp->link_arr = tmp->link_arr->next;
 		while (g_ants >= i)
 		{
@@ -42,7 +44,7 @@ void				reverse_list(t_result **result)
 			que_for_output(*tmp->link_arr);
 			i++;
 		}
-		g_ants = 0;
+		one_(start, &tmp);
 	}
 }
 

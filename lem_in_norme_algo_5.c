@@ -39,10 +39,9 @@ void				swap_list_elem(t_room *room, int len)
 	}
 }
 
-void				distribution_of_ants(t_room **room)
+void				distribution_of_ants(t_room **room, t_line **list)
 {
 	t_room			*tmp;
-	t_result		*res;
 	t_result		*resulted_ways;
 	int				i;
 
@@ -56,15 +55,7 @@ void				distribution_of_ants(t_room **room)
 		processing_of_the_ways(room, &resulted_ways);
 		i++;
 	}
-	if (g_w)
-		key_bonus(&resulted_ways);
-	if (g_a)
-	{
-		if ((res = check_shortest(&resulted_ways)))
-			output_key_2_bonus_1(res);
-		else
-			key_2_bonus(&resulted_ways);
-	}
+	norme_for_distribution(&resulted_ways, list);
 	distribution(room, &resulted_ways);
 }
 

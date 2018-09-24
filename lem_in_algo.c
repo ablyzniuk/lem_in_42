@@ -46,7 +46,7 @@ t_room				*sort_links(t_room **room, t_room *obj)
 	i = 0;
 	buff = NULL;
 	safe = obj->distance_from_start;
-	while (obj->link[i].name != NULL)
+	while (obj->link[i].name != NULL && i < obj->llr)
 	{
 		tmp = que_search(room, obj->link[i].name);
 		if (tmp->status == 0)

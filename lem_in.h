@@ -20,12 +20,21 @@
 int					g_start_or_end;
 int					g_ants;
 int					g_fd;
+int					g_h;
 int					g_w;
 int					g_a;
+
+typedef struct		s_line
+{
+	char			*line;
+	struct s_line	*next;
+}					t_line;
 
 typedef struct		s_room
 {
 	int				start_end;
+	int				llr;
+	int				list_len;
 	int				coord_x;
 	int				coord_y;
 	int				distance_from_start;
@@ -48,6 +57,20 @@ typedef struct		s_result
 	struct s_result *next;
 }					t_result;
 
+void				one_(t_room *start, t_result **tmp);
+void				bonus_help(void);
+void				search_bonus(int argc, char **argv);
+int					is_symbol(char *line);
+void				norme_for_linker_allocation(t_room **link1,
+					t_room **link2, int len);
+void				ft_bzero_int(int *arr, size_t size);
+void				norme_for_linker(int *arr,
+					t_room **link1, t_room **link2);
+void				norme_for_distribution(t_result
+					**resulted_ways, t_line **list);
+void				print_list(t_line **list);
+void				add_to_line(char *line, t_line **list);
+void				norm_for_l_a_3(t_room *room, t_result **result);
 void				processing_of_the_ways(t_room **room, t_result **result);
 void				swap_list_elem(t_room *room, int len);
 void				reverse_list(t_result **result);
@@ -91,7 +114,7 @@ void				zero_status(t_result **resulted_ways);
 void				que_for_output(t_room elem);
 t_room				*is_way(t_room **room);
 void				distribution(t_room **room, t_result **resulted_ways);
-void				distribution_of_ants(t_room **room);
+void				distribution_of_ants(t_room **room, t_line **list);
 void				making_final_results(t_room *start,
 					t_result **result, int len);
 void				add_to_the_way(t_room **room, t_room *tmp, t_room **way);
@@ -99,7 +122,7 @@ void				error_no_conditons_for_algo_2(int start, int end);
 void				error_no_conditons_for_algo(t_room *que);
 t_room				*sort_links(t_room **room, t_room *obj);
 void				search_the_way(t_room **room, t_room **way);
-void				read_and_valid(t_room **room);
+void				read_and_valid(t_room **room, t_line **list);
 void				free_que(t_room **que);
 void				indexing_main_list_by_distance(t_room **room, t_room **que);
 t_room				*que_search(t_room **que, char *room);
@@ -110,9 +133,9 @@ void				making_the_que(t_room *room,
 void				room_coords_validator(t_room **room, char **buff);
 void				checker_links(char **buff);
 void				linker(t_room **room, char **line);
-void				count_quant_coords(char **buff);
+int					count_quant_coords(char **buff);
 int					s_e_choose(void);
-void				room_validator(char **buff);
+int					room_validator(char **buff);
 void				working_with_room(char **buff, t_room **room, int s_e);
 int					start_end(char **line);
 int					checker_room(char **line, t_room **room);

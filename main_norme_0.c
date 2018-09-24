@@ -28,3 +28,66 @@ void			room_coords_validator(t_room **room, char **buff)
 		tmp = tmp->next;
 	}
 }
+
+void			norm_for_l_a_3(t_room *room, t_result **result)
+{
+	(*result)->link_arr = room;
+	g_ants = 0;
+}
+
+void			add_to_line(char *line, t_line **list)
+{
+	t_line		*tmp;
+
+	if (*list == NULL)
+	{
+		(*list) = (t_line *)ft_memalloc(sizeof(t_line));
+		(*list)->line = ft_strdup(line);
+	}
+	else
+	{
+		tmp = (*list);
+		while (tmp->next != NULL)
+			tmp = tmp->next;
+		tmp->next = (t_line *)ft_memalloc(sizeof(t_line));
+		tmp = tmp->next;
+		tmp->line = ft_strdup(line);
+		tmp->next = NULL;
+	}
+}
+
+void			print_list(t_line **list)
+{
+	t_line		*tmp;
+	t_line		*start;
+
+	start = (*list);
+	while (start)
+	{
+		tmp = start;
+		ft_putstr(tmp->line);
+		ft_putchar('\n');
+		start = start->next;
+		ft_strdel(&tmp->line);
+		ft_memdel((void *)&tmp);
+	}
+	ft_putchar('\n');
+}
+
+void			norme_for_distribution(t_result **resulted_ways, t_line **list)
+{
+	t_result	*res;
+
+	print_list(list);
+	if (g_h)
+		bonus_help();
+	if (g_w)
+		key_bonus(resulted_ways);
+	if (g_a)
+	{
+		if ((res = check_shortest(resulted_ways)))
+			output_key_2_bonus_1(res);
+		else
+			key_2_bonus(resulted_ways);
+	}
+}
