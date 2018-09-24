@@ -14,35 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="419b5dc5-a48e-41f7-a4c4-e1b89dea5066" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_algo.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_algo.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_linker.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_linker.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_0.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_1.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_2.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_linker_0.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_in_norme_wave_0.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_int_wave.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/lem_int_wave.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme_0.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme_0.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lem_in" afterPath="$PROJECT_DIR$/cmake-build-debug/Lem_in" />
-      <change beforePath="$PROJECT_DIR$/lem_in.h" afterPath="$PROJECT_DIR$/lem_in.h" />
-      <change beforePath="$PROJECT_DIR$/lem_in_algo.c" afterPath="$PROJECT_DIR$/lem_in_algo.c" />
-      <change beforePath="$PROJECT_DIR$/lem_in_linker.c" afterPath="$PROJECT_DIR$/lem_in_linker.c" />
-      <change beforePath="$PROJECT_DIR$/lem_in_norme_algo_2.c" afterPath="$PROJECT_DIR$/lem_in_norme_algo_2.c" />
-      <change beforePath="$PROJECT_DIR$/lem_in_norme_algo_3.c" afterPath="$PROJECT_DIR$/lem_in_norme_algo_3.c" />
-      <change beforePath="$PROJECT_DIR$/lem_in_norme_algo_5.c" afterPath="$PROJECT_DIR$/lem_in_norme_algo_5.c" />
-      <change beforePath="$PROJECT_DIR$/lem_int_wave.c" afterPath="$PROJECT_DIR$/lem_int_wave.c" />
-      <change beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change beforePath="$PROJECT_DIR$/main_norme.c" afterPath="$PROJECT_DIR$/main_norme.c" />
-      <change beforePath="$PROJECT_DIR$/main_norme_0.c" afterPath="$PROJECT_DIR$/main_norme_0.c" />
-      <change beforePath="$PROJECT_DIR$/test.txt" afterPath="$PROJECT_DIR$/test.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,11 +122,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lem_in.h" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lem_in.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lem_in.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
-                  <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+                <state relative-caret-position="497">
+                  <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="author" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/author">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -381,12 +362,12 @@
       <workItem from="1537556524419" duration="3480000" />
       <workItem from="1537689327263" duration="1886000" />
       <workItem from="1537695016247" duration="18938000" />
-      <workItem from="1537787773247" duration="9298000" />
+      <workItem from="1537787773247" duration="9512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255189000" />
+    <option name="totallyTimeSpent" value="255403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="36" width="2560" height="1337" extended-state="0" />
@@ -522,14 +503,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -859,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lem_in.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lem_in_norme_algo_0.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -895,6 +860,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lem_in.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
