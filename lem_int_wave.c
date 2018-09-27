@@ -12,7 +12,7 @@
 
 #include "lem_in.h"
 
-void			start_(t_room **room)
+inline void		start_(t_room **room)
 {
 	t_room		*tmp;
 	t_room		*que;
@@ -25,7 +25,6 @@ void			start_(t_room **room)
 		tmp = tmp->next;
 	making_the_que(tmp, &que, NULL, 0);
 	walking_on_links(&tmp, &que, room);
-	tmp = (*room);
 	for_que = que;
 	tmp->status = 1;
 	for_que = for_que->next;
@@ -60,7 +59,7 @@ void			semi_condition(t_room *room)
 	}
 }
 
-void			walking_on_links(t_room **tmp, t_room **que, t_room **room)
+inline void		walking_on_links(t_room **tmp, t_room **que, t_room **room)
 {
 	int			i;
 	t_room		*buff;
@@ -68,7 +67,7 @@ void			walking_on_links(t_room **tmp, t_room **que, t_room **room)
 	i = 0;
 	if (!(*tmp)->link)
 		return ;
-	while ((*tmp)->link[i].name != NULL && i < (*tmp)->llr)
+	while ((*tmp)->link[i].name && i < que_search(room, (*tmp)->name)->llr)
 	{
 		buff = que_search(room, (*tmp)->link[i].name);
 		if (buff->status == 0)

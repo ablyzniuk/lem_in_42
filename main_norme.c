@@ -12,28 +12,27 @@
 
 #include "lem_in.h"
 
-int				checker_room(char **line, t_room **room)
+inline int		checker_room(char **line, t_room **room)
 {
 	char		**buff;
 
-	if (start_end(line))
-		return (1);
 	buff = ft_strsplit(*line, ' ');
-	if (ft_strstr(*line, "-"))
+	if (its_link(*line))
 	{
 		linker(room, line);
 		ft_strdel(line);
 		delete_buff(buff, 2);
 		return (1);
 	}
-	if (room_validator(buff) == 0)
+	if (!room_validator(buff))
 	{
 		delete_buff(buff, 2);
 		ft_strdel(line);
 		return (0);
 	}
 	room_coords_validator(room, buff);
-	working_with_room(buff, room, s_e_choose());
+	if (its_room(*line))
+		working_with_room(buff, room, s_e_choose());
 	delete_buff(buff, 3);
 	ft_strdel(line);
 	return (1);
@@ -91,7 +90,7 @@ int				room_validator(char **buff)
 		return (0);
 	while (buff[1][i] != '\0')
 	{
-		if (!ft_isdigit(buff[1][i]))
+		if (!ft_isdigit(buff[1][i]) && buff[1][i] != '-')
 		{
 			ft_putstr("Error, bad coordinates x\n");
 			exit(0);
@@ -101,7 +100,7 @@ int				room_validator(char **buff)
 	i = 0;
 	while (buff[2][i] != '\0')
 	{
-		if (!ft_isdigit(buff[2][i]))
+		if (!ft_isdigit(buff[2][i]) && buff[2][i] != '-')
 		{
 			ft_putstr("Error, bad coordinates y\n");
 			exit(0);

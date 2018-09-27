@@ -23,14 +23,13 @@ int				main(int argc, char **argv)
 		ft_putstr("Invalid input data. Program terminated.\n");
 		exit(0);
 	}
-	g_fd = 0;
 	g_h = 0;
+	g_fd = 0;
 	g_w = 0;
 	g_a = 0;
 	search_bonus(argc, argv);
 	read_and_valid(&room, &list);
 	distribution_of_ants(&room, &list);
-	system("leaks lem-in");
 	return (0);
 }
 
@@ -56,14 +55,23 @@ void			read_and_valid(t_room **room, t_line **list)
 	char		*line;
 
 	line = NULL;
-	if (get_next_line(g_fd, &line) > 0 && g_ants == 0)
+	while (g_ants == 0)
 	{
+		if (!get_next_line(g_fd, &line))
+		{
+			ft_putstr("Error, invalid input data.\n");
+			exit(0);
+		}
 		add_to_line(line, list);
+		if (start_end(&line))
+			continue ;
 		ants(&line);
 	}
 	while (get_next_line(g_fd, &line) > 0)
 	{
 		add_to_line(line, list);
+		if (start_end(&line))
+			continue ;
 		if (checker_room(&line, room) == 0)
 			break ;
 	}
@@ -93,13 +101,13 @@ int				ants(char **line)
 
 int				start_end(char **line)
 {
-	if (ft_strstr(*line, "##start"))
+	if (ft_strequ(*line, "##start"))
 	{
 		g_start_or_end = 1;
 		ft_strdel(line);
 		return (1);
 	}
-	else if (ft_strstr(*line, "##end"))
+	else if (ft_strequ(*line, "##end"))
 	{
 		g_start_or_end = 2;
 		ft_strdel(line);
@@ -107,7 +115,6 @@ int				start_end(char **line)
 	}
 	else if (ft_strstr(*line, "#"))
 	{
-		g_start_or_end = 0;
 		ft_strdel(line);
 		return (1);
 	}

@@ -417,6 +417,78 @@ CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.provides: CMakeFiles/Lem_in.dir/le
 CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.provides.build: CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o
 
 
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o: ../trash_for_norme.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Lem_in.dir/trash_for_norme.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/trash_for_norme.c.o   -c /Users/ablizniu/Documents/Lem-in/trash_for_norme.c
+
+CMakeFiles/Lem_in.dir/trash_for_norme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/trash_for_norme.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/trash_for_norme.c > CMakeFiles/Lem_in.dir/trash_for_norme.c.i
+
+CMakeFiles/Lem_in.dir/trash_for_norme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/trash_for_norme.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/trash_for_norme.c -o CMakeFiles/Lem_in.dir/trash_for_norme.c.s
+
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/trash_for_norme.c.o.requires
+
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o.provides: CMakeFiles/Lem_in.dir/trash_for_norme.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/trash_for_norme.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/trash_for_norme.c.o.provides
+
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o.provides.build: CMakeFiles/Lem_in.dir/trash_for_norme.c.o
+
+
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o: ../trash_for_norme_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o   -c /Users/ablizniu/Documents/Lem-in/trash_for_norme_1.c
+
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/trash_for_norme_1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/trash_for_norme_1.c > CMakeFiles/Lem_in.dir/trash_for_norme_1.c.i
+
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/trash_for_norme_1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/trash_for_norme_1.c -o CMakeFiles/Lem_in.dir/trash_for_norme_1.c.s
+
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.requires
+
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.provides: CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.provides
+
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.provides.build: CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o
+
+
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o: ../trash_cor_norme_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o   -c /Users/ablizniu/Documents/Lem-in/trash_cor_norme_3.c
+
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Lem-in/trash_cor_norme_3.c > CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.i
+
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Lem-in/trash_cor_norme_3.c -o CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.s
+
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.requires:
+
+.PHONY : CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.requires
+
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.provides: CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.requires
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.provides.build
+.PHONY : CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.provides
+
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.provides.build: CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o
+
+
 # Object files for target Lem_in
 Lem_in_OBJECTS = \
 "CMakeFiles/Lem_in.dir/main.c.o" \
@@ -433,7 +505,10 @@ Lem_in_OBJECTS = \
 "CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o" \
 "CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o" \
 "CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o" \
-"CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o"
+"CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o" \
+"CMakeFiles/Lem_in.dir/trash_for_norme.c.o" \
+"CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o" \
+"CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o"
 
 # External object files for target Lem_in
 Lem_in_EXTERNAL_OBJECTS =
@@ -453,10 +528,13 @@ Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o
 Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o
 Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o
 Lem_in: CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o
+Lem_in: CMakeFiles/Lem_in.dir/trash_for_norme.c.o
+Lem_in: CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o
+Lem_in: CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o
 Lem_in: CMakeFiles/Lem_in.dir/build.make
 Lem_in: libft.a
 Lem_in: CMakeFiles/Lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable Lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable Lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -479,6 +557,9 @@ CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_3.c.o.re
 CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o.requires
 CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o.requires
 CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/trash_for_norme.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o.requires
+CMakeFiles/Lem_in.dir/requires: CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o.requires
 
 .PHONY : CMakeFiles/Lem_in.dir/requires
 

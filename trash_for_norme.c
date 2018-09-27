@@ -21,12 +21,12 @@ void			bonus_help(void)
 	ft_putstr("take the some number of ants and lead them to finish.\n");
 	ft_putstr("'L' - number of ant and after '-' "
 	"situated the number of room "
-	"in which are the ant situated\n");
-	ft_putstr("\n\nHere some addition tips: \n");
+	"in which the ant situated\n");
+	ft_putstr("\n\nHere some additional tips: \n");
 	ft_putstr(" '-w' arg - will show to you all "
 	"possible ways which have found the programm.\n");
-	ft_putstr("Also will show tou you length in "
-	"rooms and their order by ants distribution. \n");
+	ft_putstr("Also will show to you length in "
+	"'rooms' metric system and their order by ants distribution. \n");
 	ft_putstr("\n '-a' arg - will show to you "
 	"distribution of ants on their ways.\n");
 	ft_putstr("It will show to you how much"
@@ -69,21 +69,10 @@ int				is_symbol(char *line)
 	return (1);
 }
 
-void			ft_bzero_int(int *arr, size_t size)
+inline void		norme_for_linker_allocation(t_room **link1,
+											t_room **link2, int len, int *i)
 {
-	size_t		i;
-
-	i = 0;
-	while (i < size)
-	{
-		arr[i] = 0;
-		i++;
-	}
-}
-
-void			norme_for_linker_allocation(t_room **link1,
-											t_room **link2, int len)
-{
+	(*i) = 0;
 	if ((*link1) && (*link1)->link == NULL)
 		(*link1)->link = (t_room *)ft_memalloc(sizeof(t_room) * len);
 	else if (!(*link1))
@@ -92,4 +81,11 @@ void			norme_for_linker_allocation(t_room **link1,
 		(*link2)->link = (t_room *)ft_memalloc(sizeof(t_room) * len);
 	else if (!(*link2))
 		error_no_links();
+}
+
+void			error_quant_links(void)
+{
+	ft_putstr("Error, number of possible "
+		"links exceeded. Program terminated.\n");
+	exit(0);
 }

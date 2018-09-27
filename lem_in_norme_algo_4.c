@@ -42,7 +42,7 @@ t_result			*key_2_bonus_find_min(t_result **result)
 
 	tmp = (*result);
 	buff = tmp;
-	while (tmp->next)
+	while (tmp)
 	{
 		if (tmp->quant_of_ant < buff->quant_of_ant
 			&& tmp->len_of_the_way <= buff->len_of_the_way)

@@ -355,6 +355,15 @@
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/main_norme_0.c">
 			<Option target="Lem_in"/>
 		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/trash_cor_norme_3.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/trash_for_norme.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Lem-in/trash_for_norme_1.c">
+			<Option target="Lem_in"/>
+		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Lem-in/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

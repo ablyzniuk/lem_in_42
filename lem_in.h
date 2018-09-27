@@ -57,14 +57,18 @@ typedef struct		s_result
 	struct s_result *next;
 }					t_result;
 
+int					is_it_way(t_room **way);
+int					its_room(const char *line);
+int					its_link(const char *line);
+void				error_room(void);
+void				error_quant_links(void);
 void				one_(t_room *start, t_result **tmp);
 void				bonus_help(void);
 void				search_bonus(int argc, char **argv);
 int					is_symbol(char *line);
 void				norme_for_linker_allocation(t_room **link1,
-					t_room **link2, int len);
-void				ft_bzero_int(int *arr, size_t size);
-void				norme_for_linker(int *arr,
+					t_room **link2, int len, int *i);
+void				norme_for_linker(int j, int k,
 					t_room **link1, t_room **link2);
 void				norme_for_distribution(t_result
 					**resulted_ways, t_line **list);

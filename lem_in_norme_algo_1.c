@@ -32,7 +32,7 @@ int					is_ant(t_result *result)
 	return (0);
 }
 
-void				output(t_result **result)
+inline void			output(t_result **result)
 {
 	t_result		*tmp;
 	t_room			*tmp_r;

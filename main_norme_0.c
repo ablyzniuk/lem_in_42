@@ -35,7 +35,7 @@ void			norm_for_l_a_3(t_room *room, t_result **result)
 	g_ants = 0;
 }
 
-void			add_to_line(char *line, t_line **list)
+inline void		add_to_line(char *line, t_line **list)
 {
 	t_line		*tmp;
 
@@ -43,11 +43,12 @@ void			add_to_line(char *line, t_line **list)
 	{
 		(*list) = (t_line *)ft_memalloc(sizeof(t_line));
 		(*list)->line = ft_strdup(line);
+		(*list)->next = NULL;
 	}
 	else
 	{
 		tmp = (*list);
-		while (tmp->next != NULL)
+		while (tmp->next)
 			tmp = tmp->next;
 		tmp->next = (t_line *)ft_memalloc(sizeof(t_line));
 		tmp = tmp->next;

@@ -19,7 +19,7 @@
 # include <stdlib.h>
 # include <string.h>
 # include <stddef.h>
-# define BUFF_SIZE 1000
+# define BUFF_SIZE 10
 
 typedef	struct		s_gnl
 {

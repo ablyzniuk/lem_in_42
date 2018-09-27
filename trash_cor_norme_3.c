@@ -1,27 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   trash_for_norme_1.c                                :+:      :+:    :+:   */
+/*   trash_cor_norme_3.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/09/24 17:46:27 by ablizniu          #+#    #+#             */
-/*   Updated: 2018/09/24 17:46:30 by ablizniu         ###   ########.fr       */
+/*   Created: 2018/09/26 18:49:34 by ablizniu          #+#    #+#             */
+/*   Updated: 2018/09/26 18:49:35 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lem_in.h"
 
-void			norme_for_linker(int j, int k, t_room **link1, t_room **link2)
+int				is_it_way(t_room **way)
 {
-	(*link1)->llr = j;
-	(*link1)->llr++;
-	(*link2)->llr = k;
-	(*link2)->llr++;
-}
+	t_room		*tmp;
+	int			start;
+	int			end;
 
-void			one_(t_room *start, t_result **tmp)
-{
-	ft_putchar('\n');
-	norm_for_l_a_3(start, tmp);
+	start = 0;
+	end = 0;
+	tmp = (*way);
+	while (tmp)
+	{
+		if (tmp->start_end == END)
+			end++;
+		if (tmp->start_end == START)
+			start++;
+		tmp = tmp->next;
+	}
+	if (start == 1 && end == 1)
+		return (1);
+	return (0);
 }

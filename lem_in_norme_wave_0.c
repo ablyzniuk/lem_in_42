@@ -22,9 +22,9 @@ void			error_no_conditons_for_algo_2(int start, int end)
 	}
 }
 
-void			free_que(t_room **que)
+inline void		free_que(t_room **que)
 {
-	t_room *tmp;
+	t_room		*tmp;
 
 	while ((*que))
 	{
@@ -46,7 +46,7 @@ t_room			*que_search(t_room **room, char *name)
 	return (tmp);
 }
 
-void			making_the_que(t_room *room,
+inline void		making_the_que(t_room *room,
 				t_room **que, t_room *parent_link, int len)
 {
 	t_room		*tmp;
@@ -74,7 +74,7 @@ void			making_the_que(t_room *room,
 	}
 }
 
-void			making_final_results(t_room *start, t_result **result, int len)
+inline void		making_final_results(t_room *start, t_result **result, int len)
 {
 	t_result	*tmp;
 	t_result	*prev;

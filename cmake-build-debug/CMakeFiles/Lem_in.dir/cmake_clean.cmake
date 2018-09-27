@@ -14,6 +14,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Lem_in.dir/lem_in_norme_algo_4.c.o"
   "CMakeFiles/Lem_in.dir/lem_in_norme_algo_5.c.o"
   "CMakeFiles/Lem_in.dir/lem_in_norme_algo_6.c.o"
+  "CMakeFiles/Lem_in.dir/trash_for_norme.c.o"
+  "CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o"
+  "CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o"
   "Lem_in.pdb"
   "Lem_in"
 )

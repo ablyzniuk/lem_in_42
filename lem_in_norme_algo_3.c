@@ -62,7 +62,7 @@ t_result			*check_shortest(t_result **result)
 	return (NULL);
 }
 
-void				distribution(t_room **room, t_result **resulted_ways)
+inline void			distribution(t_room **room, t_result **resulted_ways)
 {
 	int				min_len;
 	t_result		*tmp;

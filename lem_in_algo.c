@@ -12,7 +12,7 @@
 
 #include "lem_in.h"
 
-void				search_the_way(t_room **room, t_room **way)
+inline void			search_the_way(t_room **room, t_room **way)
 {
 	t_room			*tmp;
 
@@ -36,7 +36,7 @@ void				search_the_way(t_room **room, t_room **way)
 		add_to_the_way(room, tmp, way);
 }
 
-t_room				*sort_links(t_room **room, t_room *obj)
+inline t_room		*sort_links(t_room **room, t_room *obj)
 {
 	t_room			*buff;
 	t_room			*tmp;
@@ -60,4 +60,53 @@ t_room				*sort_links(t_room **room, t_room *obj)
 	}
 	obj->distance_from_start = safe;
 	return (buff);
+}
+
+int					its_link(const char *line)
+{
+	int				i;
+	int				symbol;
+	int				hyp;
+
+	i = 0;
+	hyp = 0;
+	symbol = 0;
+	while (line[i])
+	{
+		if (line[i] == '-')
+			hyp++;
+		if (line[i] != '-')
+			symbol++;
+		i++;
+	}
+	if (hyp == 1 && symbol >= 2)
+		return (1);
+	return (0);
+}
+
+int					its_room(const char *line)
+{
+	int				i;
+	int				space;
+
+	i = 0;
+	space = 0;
+	while (line[i])
+	{
+		if (line[i] == ' ')
+			space++;
+		if (line[i] == 'L')
+			error_room();
+		i++;
+	}
+	if (space == 2)
+		return (1);
+	error_room();
+	return (0);
+}
+
+void				error_room(void)
+{
+	ft_putstr("Error, invalid room name.\n");
+	exit(0);
 }

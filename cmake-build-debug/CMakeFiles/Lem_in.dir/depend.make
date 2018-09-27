@@ -61,3 +61,15 @@ CMakeFiles/Lem_in.dir/main_norme_0.c.o: ../lem_in.h
 CMakeFiles/Lem_in.dir/main_norme_0.c.o: ../libft/libft.h
 CMakeFiles/Lem_in.dir/main_norme_0.c.o: ../main_norme_0.c
 
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o: ../lem_in.h
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o: ../trash_cor_norme_3.c
+
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o: ../lem_in.h
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/trash_for_norme.c.o: ../trash_for_norme.c
+
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o: ../lem_in.h
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o: ../trash_for_norme_1.c
+

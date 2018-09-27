@@ -19,6 +19,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ablizniu/Documents/Lem-in/main.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/main.c.o"
   "/Users/ablizniu/Documents/Lem-in/main_norme.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme.c.o"
   "/Users/ablizniu/Documents/Lem-in/main_norme_0.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/main_norme_0.c.o"
+  "/Users/ablizniu/Documents/Lem-in/trash_cor_norme_3.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/trash_cor_norme_3.c.o"
+  "/Users/ablizniu/Documents/Lem-in/trash_for_norme.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/trash_for_norme.c.o"
+  "/Users/ablizniu/Documents/Lem-in/trash_for_norme_1.c" "/Users/ablizniu/Documents/Lem-in/cmake-build-debug/CMakeFiles/Lem_in.dir/trash_for_norme_1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

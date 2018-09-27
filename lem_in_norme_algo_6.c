@@ -37,7 +37,7 @@ int					norme_for_sort_links_2(int *i,
 	return (0);
 }
 
-t_room				*is_way(t_room **room)
+inline t_room		*is_way(t_room **room)
 {
 	int				i;
 	t_room			*tmp;
@@ -57,7 +57,7 @@ t_room				*is_way(t_room **room)
 	return (NULL);
 }
 
-void				add_to_the_way(t_room **room, t_room *tmp, t_room **way)
+inline void			add_to_the_way(t_room **room, t_room *tmp, t_room **way)
 {
 	t_room			*temp;
 	t_room			*buff;
@@ -101,5 +101,8 @@ void				processing_of_the_ways(t_room **room, t_result **result)
 		len++;
 		tmp = tmp->next;
 	}
-	making_final_results(way, result, len);
+	if (len > 1 && is_it_way(&way))
+		making_final_results(way, result, len);
+	else if (len == 1 || !is_it_way(&way))
+		free_que(&way);
 }
